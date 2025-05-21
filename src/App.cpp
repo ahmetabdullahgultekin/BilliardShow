@@ -12,8 +12,8 @@ void mouse_button_callback(GLFWwindow *, int button, int action, int) {
 
 void cursor_position_callback(GLFWwindow *, double xpos, double ypos) {
     if (*g_leftMousePressed) {
-        float deltaX = xpos - *g_lastX;
-        float deltaY = ypos - *g_lastY;
+        float deltaX = (float) xpos - *g_lastX;
+        float deltaY = (float) ypos - *g_lastY;
         g_camera->ProcessMouseMovement(deltaX, deltaY);
     }
     *g_lastX = (float) xpos;
@@ -25,18 +25,12 @@ void scroll_callback(GLFWwindow *, double, double yoffset) {
 }
 
 App::App() {
-    std::cout << "Hello, World!" << std::endl;
     renderer = new Renderer();
-    std::cout << "Renderer created" << std::endl;
-    camera = new Camera(800.0f / 600.0f);
-    std::cout << "Camera created" << std::endl;
+    camera = new Camera(1600.0f / 900.0f);
     minimap = new Minimap(renderer, 3.0f, 1.5f); // Table width & depth
-    std::cout << "Minimap created" << std::endl;
     testBall = new Model3D();
-    std::cout << "Minimap created" << std::endl;
     testBall->Load("assets/Ball1.obj");   // Path to your OBJ file
-    std::cout << "Model3D created" << std::endl;
-    std::cout << "Model3D installed" << std::endl;
+    scene = new Scene();
 }
 
 App::~App() {
@@ -44,6 +38,7 @@ App::~App() {
     delete camera;
     delete minimap;
     delete testBall;
+    delete scene;
 }
 
 void App::Run() {
@@ -52,7 +47,7 @@ void App::Run() {
         return;
     }
 
-    GLFWwindow *window = glfwCreateWindow(1600, 1200, "BilliardShow", nullptr, nullptr);
+    GLFWwindow *window = glfwCreateWindow(1600, 900, "BilliardShow", nullptr, nullptr);
     if (!window) {
         std::cerr << "Failed to create window\n";
         glfwTerminate();
@@ -76,18 +71,10 @@ void App::Run() {
         return;
     }
 
-/*    // Main loop
-    while (!glfwWindowShouldClose(window)) {
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-        renderer->SetCamera(camera);
-        renderer->DrawParallelepiped(glm::vec3(0.0f), glm::vec3(2.0f, 0.2f, 1.0f));
-
-        glfwSwapBuffers(window);
-        glfwPollEvents();
-    }*/
-
-    testBall->Install();
+    //testBall->Install();
+    scene->Init();
+    scene->InstallBalls();
+    scene->SetRenderer(renderer);
 
     // Main loop
     while (!glfwWindowShouldClose(window)) {
@@ -106,10 +93,11 @@ void App::Run() {
         glLoadMatrixf(&view[0][0]);
 
         // ---- Now draw your table ----
-        renderer->DrawParallelepiped(glm::vec3(0.0f), glm::vec3(3.0f, 0.2f, 1.5f));
+        //renderer->DrawParallelepiped(glm::vec3(0.0f), glm::vec3(3.0f, 0.2f, 1.5f));
 
         // ---- Draw the ball ----
-        testBall->Render(glm::vec3(0.0f, 0.2f, 0.0f)); // Slightly above the table
+        //testBall->Render(glm::vec3(0.0f, 0.2f, 0.0f)); // Slightly above the table
+        scene->Render();
 
         // ---- Draw the minimap ----
         minimap->Render(width, height);

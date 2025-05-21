@@ -8,7 +8,7 @@ Minimap::Minimap(Renderer *renderer, float tableWidth, float tableDepth)
         : renderer(renderer), tableWidth(tableWidth), tableDepth(tableDepth) {}
 
 void Minimap::Render(int windowWidth, int windowHeight) {
-    // 1. Set small viewport (top-right)
+    // 1. Set a small viewport (top-right)
     int miniSize = windowHeight / 4;
     glViewport(windowWidth - miniSize - 10, windowHeight - miniSize - 10, miniSize, miniSize);
 

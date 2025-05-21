@@ -7,12 +7,14 @@
 #include <GLFW/glfw3.h>
 
 #include <iostream>
-#include <stdio.h>
+#include <cstdio>
 
 #include "Renderer/Renderer.h"
 #include "Renderer/Camera.h"
 #include "UI/Minimap.h"
 #include "Loader/Model3D.h"
+#include "Scene/Scene.h"
+
 
 class App {
 public:
@@ -29,6 +31,8 @@ private:
     bool leftMousePressed = false;
     Minimap *minimap;
     Model3D *testBall;
+    Scene *scene;
 };
+
 
 #endif //BILLIARDSHOW_APP_H

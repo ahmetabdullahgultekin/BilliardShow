@@ -86,9 +86,10 @@ bool Model3D::Install() {
     return true;
 }
 
-void Model3D::Render(const glm::vec3 &position) {
+void Model3D::Render(const glm::vec3 &position, float scale) const {
     glPushMatrix();
     glTranslatef(position.x, position.y, position.z);
+    glScalef(scale, scale, scale);
 
     glBindVertexArray(VAO);
     glDrawArrays(GL_TRIANGLES, 0, (GLsizei) vertices.size());

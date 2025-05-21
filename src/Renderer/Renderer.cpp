@@ -26,15 +26,6 @@ void Renderer::DrawParallelepiped(const glm::vec3 &position, const glm::vec3 &si
     glTranslatef(position.x, position.y, position.z);
     glScalef(size.x, size.y, size.z);
 
-    /*if (camera) {
-        glm::mat4 view = camera->GetViewMatrix();
-        glm::mat4 proj = camera->GetProjectionMatrix();
-        glMatrixMode(GL_PROJECTION);
-        glLoadMatrixf(&proj[0][0]);
-        glMatrixMode(GL_MODELVIEW);
-        glLoadMatrixf(&view[0][0]);
-    }*/
-
     glBegin(GL_QUADS);
 
     // Front face (z+)

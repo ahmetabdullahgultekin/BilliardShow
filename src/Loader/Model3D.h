@@ -25,7 +25,7 @@ public:
     bool Install();
 
     // Renders the model at position (ignore orientation for now)
-    void Render(const glm::vec3 &position);
+    void Render(const glm::vec3 &position, float scale = 1.0f) const;
 
 private:
     struct Vertex {
