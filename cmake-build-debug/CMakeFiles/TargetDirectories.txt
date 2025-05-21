@@ -1,0 +1,3 @@
+C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/BilliardShow.dir
+C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/rebuild_cache.dir
