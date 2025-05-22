@@ -1,8 +1,22 @@
-//
-// Created by Lenovo on 21/05/2025.
-//
-
 #ifndef BILLIARDSHOW_TEXTURE_H
 #define BILLIARDSHOW_TEXTURE_H
+
+#pragma once
+#include <string>
+#include <GL/glew.h>
+
+class Texture {
+public:
+    Texture();
+    ~Texture();
+    bool LoadFromFile(const std::string& path);
+    void Bind() const;
+    bool IsValid() const;
+    int GetWidth() const { return width; }
+    int GetHeight() const { return height; }
+private:
+    GLuint id = 0;
+    int width = 0, height = 0;
+};
 
 #endif //BILLIARDSHOW_TEXTURE_H

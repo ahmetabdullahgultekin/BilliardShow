@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u5po3p"
-      binary: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u5po3p"
+      source: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h1fpxb"
+      binary: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h1fpxb"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -123,11 +123,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u5po3p'
+        Change Dir: 'C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h1fpxb'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -v cmTC_6096d
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_6096d.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_6096d.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\\cmTC_6096d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6096d.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_6096d.exe /implib:cmTC_6096d.lib /pdb:cmTC_6096d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -v cmTC_434d9
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_434d9.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_434d9.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\\cmTC_434d9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_434d9.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_434d9.exe /implib:cmTC_434d9.lib /pdb:cmTC_434d9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -167,8 +167,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8g4tdn"
-      binary: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8g4tdn"
+      source: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bjtknq"
+      binary: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bjtknq"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -182,11 +182,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8g4tdn'
+        Change Dir: 'C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bjtknq'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -v cmTC_96fcd
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_96fcd.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_96fcd.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\\cmTC_96fcd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_96fcd.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_96fcd.exe /implib:cmTC_96fcd.lib /pdb:cmTC_96fcd.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -v cmTC_9282a
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_9282a.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_9282a.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\\cmTC_9282a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9282a.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_9282a.exe /implib:cmTC_9282a.lib /pdb:cmTC_9282a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -228,12 +228,12 @@ events:
       - "C:/Program Files/JetBrains/CLion 2023.2/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/Users/Lenovo/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
       - "C:/Users/Lenovo/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
-      - "CMakeLists.txt:15 (find_package)"
+      - "CMakeLists.txt:21 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sy5e2n"
-      binary: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sy5e2n"
+      source: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rrv6ba"
+      binary: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rrv6ba"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -246,13 +246,13 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sy5e2n'
+        Change Dir: 'C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rrv6ba'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -v cmTC_b131f
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_b131f.dir\\src.c.obj /FdCMakeFiles\\cmTC_b131f.dir\\ /FS -c C:\\Users\\Lenovo\\CLionProjects\\BilliardShow\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-sy5e2n\\src.c
-        FAILED: CMakeFiles/cmTC_b131f.dir/src.c.obj 
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_b131f.dir\\src.c.obj /FdCMakeFiles\\cmTC_b131f.dir\\ /FS -c C:\\Users\\Lenovo\\CLionProjects\\BilliardShow\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-sy5e2n\\src.c
-        C:\\Users\\Lenovo\\CLionProjects\\BilliardShow\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-sy5e2n\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -v cmTC_47a55
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_47a55.dir\\src.c.obj /FdCMakeFiles\\cmTC_47a55.dir\\ /FS -c C:\\Users\\Lenovo\\CLionProjects\\BilliardShow\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-rrv6ba\\src.c
+        FAILED: CMakeFiles/cmTC_47a55.dir/src.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_47a55.dir\\src.c.obj /FdCMakeFiles\\cmTC_47a55.dir\\ /FS -c C:\\Users\\Lenovo\\CLionProjects\\BilliardShow\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-rrv6ba\\src.c
+        C:\\Users\\Lenovo\\CLionProjects\\BilliardShow\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-rrv6ba\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -266,12 +266,12 @@ events:
       - "C:/Program Files/JetBrains/CLion 2023.2/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/Users/Lenovo/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
       - "C:/Users/Lenovo/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
-      - "CMakeLists.txt:15 (find_package)"
+      - "CMakeLists.txt:21 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f32b1t"
-      binary: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f32b1t"
+      source: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6w345y"
+      binary: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6w345y"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -284,14 +284,14 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f32b1t'
+        Change Dir: 'C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6w345y'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -v cmTC_3b722
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_3b722.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_3b722.dir\\ /FS -c C:\\Users\\Lenovo\\CLionProjects\\BilliardShow\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-f32b1t\\CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\\cmTC_3b722.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3b722.dir\\CheckFunctionExists.c.obj  /out:cmTC_3b722.exe /implib:cmTC_3b722.lib /pdb:cmTC_3b722.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_3b722.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\\cmTC_3b722.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3b722.dir\\CheckFunctionExists.c.obj  /out:cmTC_3b722.exe /implib:cmTC_3b722.lib /pdb:cmTC_3b722.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3b722.dir\\CheckFunctionExists.c.obj /out:cmTC_3b722.exe /implib:cmTC_3b722.lib /pdb:cmTC_3b722.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3b722.dir/intermediate.manifest CMakeFiles\\cmTC_3b722.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -v cmTC_37d0e
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_37d0e.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_37d0e.dir\\ /FS -c C:\\Users\\Lenovo\\CLionProjects\\BilliardShow\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-6w345y\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\\cmTC_37d0e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_37d0e.dir\\CheckFunctionExists.c.obj  /out:cmTC_37d0e.exe /implib:cmTC_37d0e.lib /pdb:cmTC_37d0e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_37d0e.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\\cmTC_37d0e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_37d0e.dir\\CheckFunctionExists.c.obj  /out:cmTC_37d0e.exe /implib:cmTC_37d0e.lib /pdb:cmTC_37d0e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_37d0e.dir\\CheckFunctionExists.c.obj /out:cmTC_37d0e.exe /implib:cmTC_37d0e.lib /pdb:cmTC_37d0e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_37d0e.dir/intermediate.manifest CMakeFiles\\cmTC_37d0e.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
         ninja: build stopped: subcommand failed.
         
@@ -306,12 +306,12 @@ events:
       - "C:/Program Files/JetBrains/CLion 2023.2/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/Users/Lenovo/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
       - "C:/Users/Lenovo/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
-      - "CMakeLists.txt:15 (find_package)"
+      - "CMakeLists.txt:21 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ru131z"
-      binary: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ru131z"
+      source: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5nahh5"
+      binary: "C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5nahh5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -324,14 +324,14 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ru131z'
+        Change Dir: 'C:/Users/Lenovo/CLionProjects/BilliardShow/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5nahh5'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -v cmTC_3fe2f
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_3fe2f.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_3fe2f.dir\\ /FS -c C:\\Users\\Lenovo\\CLionProjects\\BilliardShow\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-ru131z\\CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\\cmTC_3fe2f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3fe2f.dir\\CheckFunctionExists.c.obj  /out:cmTC_3fe2f.exe /implib:cmTC_3fe2f.lib /pdb:cmTC_3fe2f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_3fe2f.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\\cmTC_3fe2f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3fe2f.dir\\CheckFunctionExists.c.obj  /out:cmTC_3fe2f.exe /implib:cmTC_3fe2f.lib /pdb:cmTC_3fe2f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3fe2f.dir\\CheckFunctionExists.c.obj /out:cmTC_3fe2f.exe /implib:cmTC_3fe2f.lib /pdb:cmTC_3fe2f.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3fe2f.dir/intermediate.manifest CMakeFiles\\cmTC_3fe2f.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -v cmTC_0af2f
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0af2f.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_0af2f.dir\\ /FS -c C:\\Users\\Lenovo\\CLionProjects\\BilliardShow\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5nahh5\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\\cmTC_0af2f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0af2f.dir\\CheckFunctionExists.c.obj  /out:cmTC_0af2f.exe /implib:cmTC_0af2f.lib /pdb:cmTC_0af2f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_0af2f.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\\cmTC_0af2f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0af2f.dir\\CheckFunctionExists.c.obj  /out:cmTC_0af2f.exe /implib:cmTC_0af2f.lib /pdb:cmTC_0af2f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0af2f.dir\\CheckFunctionExists.c.obj /out:cmTC_0af2f.exe /implib:cmTC_0af2f.lib /pdb:cmTC_0af2f.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0af2f.dir/intermediate.manifest CMakeFiles\\cmTC_0af2f.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
         ninja: build stopped: subcommand failed.
         

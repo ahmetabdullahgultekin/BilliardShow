@@ -8,13 +8,25 @@
 
 #include <iostream>
 #include <cstdio>
+#include <chrono>
+#include <thread>
 
 #include "Renderer/Renderer.h"
 #include "Renderer/Camera.h"
 #include "UI/Minimap.h"
 #include "Loader/Model3D.h"
 #include "Scene/Scene.h"
+#include "Renderer/Texture.h"
 
+// Define the Paths
+#define ASSETS_PATH "assets/"
+#define OBJ_PATH ASSETS_PATH "objects/"
+#define IMAGE_PATH ASSETS_PATH "images/"
+#define LOADING_IMAGE "loading16-9.png"
+#define LOADING_IMAGE_PATH IMAGE_PATH LOADING_IMAGE
+// Define the Window Size
+#define WINDOW_WIDTH 1600.0f
+#define WINDOW_HEIGHT 900.0f
 
 class App {
 public:
@@ -30,9 +42,7 @@ private:
     float lastX = 0.0f, lastY = 0.0f;
     bool leftMousePressed = false;
     Minimap *minimap;
-    Model3D *testBall;
     Scene *scene;
 };
-
 
 #endif //BILLIARDSHOW_APP_H
