@@ -38,3 +38,4 @@ glm::mat4 Camera::GetViewMatrix() const {
 glm::mat4 Camera::GetProjectionMatrix() const {
     return glm::perspective(glm::radians(zoom), aspectRatio, 0.1f, 100.0f);
 }
+

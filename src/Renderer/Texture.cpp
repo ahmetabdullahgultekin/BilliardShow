@@ -1,4 +1,5 @@
 #define STB_IMAGE_IMPLEMENTATION
+
 #include "stb_image.h"
 #include "Texture.h"
 #include <GL/glew.h>
@@ -9,9 +10,9 @@ Texture::~Texture() {
     if (id) glDeleteTextures(1, &id);
 }
 
-bool Texture::LoadFromFile(const std::string& path) {
+bool Texture::LoadFromFile(const std::string &path) {
     int n;
-    unsigned char* data = stbi_load(path.c_str(), &width, &height, &n, STBI_rgb_alpha);
+    unsigned char *data = stbi_load(path.c_str(), &width, &height, &n, STBI_rgb_alpha);
     if (!data) return false;
     glGenTextures(1, &id);
     glBindTexture(GL_TEXTURE_2D, id);

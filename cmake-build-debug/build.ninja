@@ -130,15 +130,6 @@ build CMakeFiles\BilliardShow.dir\src\Scene\Scene.cpp.obj: CXX_COMPILER__Billiar
   TARGET_COMPILE_PDB = CMakeFiles\BilliardShow.dir\
   TARGET_PDB = BilliardShow.pdb
 
-build CMakeFiles\BilliardShow.dir\src\Scene\Table.cpp.obj: CXX_COMPILER__BilliardShow_unscanned_Debug C$:\Users\Lenovo\CLionProjects\BilliardShow\src\Scene\Table.cpp || cmake_object_order_depends_target_BilliardShow
-  DEFINES = -DGLFW_DLL
-  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd
-  INCLUDES = -external:IC:\Users\Lenovo\vcpkg\installed\x64-windows\include -external:W0
-  OBJECT_DIR = CMakeFiles\BilliardShow.dir
-  OBJECT_FILE_DIR = CMakeFiles\BilliardShow.dir\src\Scene
-  TARGET_COMPILE_PDB = CMakeFiles\BilliardShow.dir\
-  TARGET_PDB = BilliardShow.pdb
-
 build CMakeFiles\BilliardShow.dir\src\UI\Minimap.cpp.obj: CXX_COMPILER__BilliardShow_unscanned_Debug C$:\Users\Lenovo\CLionProjects\BilliardShow\src\UI\Minimap.cpp || cmake_object_order_depends_target_BilliardShow
   DEFINES = -DGLFW_DLL
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd
@@ -174,7 +165,7 @@ build CMakeFiles\BilliardShow.dir\src\main.cpp.obj: CXX_COMPILER__BilliardShow_u
 #############################################
 # Link the executable BilliardShow.exe
 
-build BilliardShow.exe: CXX_EXECUTABLE_LINKER__BilliardShow_Debug CMakeFiles\BilliardShow.dir\src\App.cpp.obj CMakeFiles\BilliardShow.dir\src\Loader\Model3D.cpp.obj CMakeFiles\BilliardShow.dir\src\Loader\MtlLoader.cpp.obj CMakeFiles\BilliardShow.dir\src\Loader\ObjLoader.cpp.obj CMakeFiles\BilliardShow.dir\src\Renderer\Camera.cpp.obj CMakeFiles\BilliardShow.dir\src\Renderer\Renderer.cpp.obj CMakeFiles\BilliardShow.dir\src\Renderer\Shader.cpp.obj CMakeFiles\BilliardShow.dir\src\Renderer\Texture.cpp.obj CMakeFiles\BilliardShow.dir\src\Scene\Scene.cpp.obj CMakeFiles\BilliardShow.dir\src\Scene\Table.cpp.obj CMakeFiles\BilliardShow.dir\src\UI\Minimap.cpp.obj CMakeFiles\BilliardShow.dir\src\Utils\Logger.cpp.obj CMakeFiles\BilliardShow.dir\src\main.cpp.obj | C$:\Users\Lenovo\vcpkg\installed\x64-windows\debug\lib\glew32d.lib C$:\Users\Lenovo\vcpkg\installed\x64-windows\debug\lib\glfw3dll.lib C$:\Users\Lenovo\vcpkg\installed\x64-windows\debug\lib\glm.lib
+build BilliardShow.exe: CXX_EXECUTABLE_LINKER__BilliardShow_Debug CMakeFiles\BilliardShow.dir\src\App.cpp.obj CMakeFiles\BilliardShow.dir\src\Loader\Model3D.cpp.obj CMakeFiles\BilliardShow.dir\src\Loader\MtlLoader.cpp.obj CMakeFiles\BilliardShow.dir\src\Loader\ObjLoader.cpp.obj CMakeFiles\BilliardShow.dir\src\Renderer\Camera.cpp.obj CMakeFiles\BilliardShow.dir\src\Renderer\Renderer.cpp.obj CMakeFiles\BilliardShow.dir\src\Renderer\Shader.cpp.obj CMakeFiles\BilliardShow.dir\src\Renderer\Texture.cpp.obj CMakeFiles\BilliardShow.dir\src\Scene\Scene.cpp.obj CMakeFiles\BilliardShow.dir\src\UI\Minimap.cpp.obj CMakeFiles\BilliardShow.dir\src\Utils\Logger.cpp.obj CMakeFiles\BilliardShow.dir\src\main.cpp.obj | C$:\Users\Lenovo\vcpkg\installed\x64-windows\debug\lib\glew32d.lib C$:\Users\Lenovo\vcpkg\installed\x64-windows\debug\lib\glfw3dll.lib C$:\Users\Lenovo\vcpkg\installed\x64-windows\debug\lib\glm.lib
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = opengl32.lib  C:\Users\Lenovo\vcpkg\installed\x64-windows\debug\lib\glew32d.lib  C:\Users\Lenovo\vcpkg\installed\x64-windows\debug\lib\glfw3dll.lib  C:\Users\Lenovo\vcpkg\installed\x64-windows\debug\lib\glm.lib  opengl32.lib  glu32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

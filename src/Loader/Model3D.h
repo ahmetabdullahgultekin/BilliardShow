@@ -29,7 +29,7 @@ public:
     // Renders the model at position (ignore orientation for now)
     void Render(const glm::vec3 &position, float scale = 1.0f) const;
 
-    void SetTexture(const std::string& path);
+    void SetTexture(const std::string &path);
 
     struct Vertex {
         glm::vec3 position;

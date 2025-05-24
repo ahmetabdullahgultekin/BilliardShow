@@ -2,6 +2,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <GL/glew.h>
+#include "../Utils/Logger.h"
 
 // tableWidth, tableDepth: for camera setup
 Minimap::Minimap(Renderer *renderer, float tableWidth, float tableDepth)
@@ -21,7 +22,7 @@ void Minimap::Render(int windowWidth, int windowHeight) {
     );
     glm::mat4 miniView = glm::lookAt(
             glm::vec3(0.0f, 5.0f, 0.0f), // From above
-            glm::vec3(0.0f, 0.0f, 0.0f), // Look at center
+            glm::vec3(0.0f, 0.0f, 0.0f), // Look at a center
             glm::vec3(0.0f, 0.0f, -1.0f) // Up is -Z for top view
     );
 
@@ -40,3 +41,4 @@ void Minimap::Render(int windowWidth, int windowHeight) {
 
     // 5. Restore full viewport will be handled by the main loop after all drawing
 }
+

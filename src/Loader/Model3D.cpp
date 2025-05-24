@@ -1,4 +1,5 @@
 #include "Model3D.h"
+#include "../Utils/Logger.h"
 
 struct Face {
     unsigned int v[3];
@@ -12,13 +13,16 @@ struct TempVertex {
     glm::vec2 tex;
 };
 
-bool parseOBJ(const std::string& path, std::vector<Model3D::Vertex>& outVertices, std::string& outMtlFile) {
+bool parseOBJ(const std::string &path, std::vector<Model3D::Vertex> &outVertices, std::string &outMtlFile) {
     std::vector<glm::vec3> positions;
     std::vector<glm::vec3> normals;
     std::vector<glm::vec2> texcoords;
     std::vector<Face> faces;
     std::ifstream file(path);
-    if (!file.is_open()) return false;
+    if (!file.is_open()) {
+        Logger::Error("Failed to open OBJ file: " + path);
+        return false;
+    }
     std::string line;
     outMtlFile.clear();
     while (std::getline(file, line)) {
@@ -60,7 +64,7 @@ bool parseOBJ(const std::string& path, std::vector<Model3D::Vertex>& outVertices
         }
     }
     outVertices.clear();
-    for (const auto& face : faces) {
+    for (const auto &face: faces) {
         for (int i = 0; i < 3; ++i) {
             Model3D::Vertex v;
             v.position = positions[face.v[i]];
@@ -83,13 +87,17 @@ Model3D::~Model3D() {
 bool Model3D::Load(const std::string &obj_model_filepath) {
     std::string mtlFile;
     bool ok = parseOBJ(obj_model_filepath, vertices, mtlFile);
-    if (!ok) return false;
+    if (!ok) {
+        Logger::Error("Failed to parse OBJ file: " + obj_model_filepath);
+        return false;
+    }
     // Try to load texture from .mtl if present
     if (!mtlFile.empty()) {
-        // Find directory of obj file
+        // Find the directory of an obj file
         std::string dir = obj_model_filepath.substr(0, obj_model_filepath.find_last_of("/\\") + 1);
         std::ifstream mtl(dir + mtlFile);
         if (mtl.is_open()) {
+            Logger::Info("Loaded MTL file: " + dir + mtlFile);
             std::string line;
             while (std::getline(mtl, line)) {
                 std::istringstream iss(line);
@@ -102,6 +110,8 @@ bool Model3D::Load(const std::string &obj_model_filepath) {
                     break;
                 }
             }
+        } else if (!mtlFile.empty()) {
+            Logger::Warn("Could not open MTL file: " + dir + mtlFile);
         }
     }
     return true;
@@ -116,17 +126,22 @@ bool Model3D::Install() {
     glEnableVertexAttribArray(0);
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(Model3D::Vertex), (void *) 0);
     glEnableVertexAttribArray(1);
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, sizeof(Model3D::Vertex), (void *) offsetof(Model3D::Vertex, normal));
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, sizeof(Model3D::Vertex),
+                          (void *) offsetof(Model3D::Vertex, normal));
     glEnableVertexAttribArray(2);
-    glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, sizeof(Model3D::Vertex), (void *) offsetof(Model3D::Vertex, texCoord));
+    glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, sizeof(Model3D::Vertex),
+                          (void *) offsetof(Model3D::Vertex, texCoord));
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
     return true;
 }
 
-void Model3D::SetTexture(const std::string& path) {
+void Model3D::SetTexture(const std::string &path) {
     if (!texture.LoadFromFile(path)) {
-        std::cerr << "Failed to load texture: " << path << std::endl;
+        Logger::Error("Failed to load texture: " + path);
+    }
+    else {
+        Logger::Info("Texture loaded successfully: " + path);
     }
 }
 
@@ -146,4 +161,3 @@ void Model3D::Render(const glm::vec3 &position, float scale) const {
     glPopMatrix();
     if (texture.IsValid()) glDisable(GL_TEXTURE_2D);
 }
-

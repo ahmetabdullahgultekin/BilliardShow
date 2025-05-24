@@ -10,6 +10,7 @@
 #include <cstdio>
 #include <chrono>
 #include <thread>
+#include <atomic>
 
 #include "Renderer/Renderer.h"
 #include "Renderer/Camera.h"
@@ -17,6 +18,7 @@
 #include "Loader/Model3D.h"
 #include "Scene/Scene.h"
 #include "Renderer/Texture.h"
+#include "Utils/Logger.h"
 
 // Define the Paths
 #define ASSETS_PATH "assets/"
@@ -27,6 +29,14 @@
 // Define the Window Size
 #define WINDOW_WIDTH 1600.0f
 #define WINDOW_HEIGHT 900.0f
+
+class Renderer;
+
+class Camera;
+
+class Minimap;
+
+class Scene;
 
 class App {
 public:
