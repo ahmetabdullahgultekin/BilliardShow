@@ -1,11 +1,14 @@
 #include "App.h"
+#include "Renderer/Shader.h"
 
 static Camera *g_camera = nullptr;
 static bool *g_leftMousePressed = nullptr;
 static float *g_lastX = nullptr;
 static float *g_lastY = nullptr;
-GLFWwindow *g_loadingWindow = nullptr;
+
+/*GLFWwindow *g_loadingWindow = nullptr;
 Texture *g_loadingTexture = nullptr;
+Shader* g_mainShader = nullptr;*/
 
 void mouse_button_callback(GLFWwindow *, int button, int action, int) {
     if (button == GLFW_MOUSE_BUTTON_LEFT)
@@ -159,26 +162,51 @@ void App::Run() {
         Logger::Error(std::string("Failed to load loading image ") + LOADING_IMAGE_PATH);
         return;
     }
-    g_loadingWindow = window;
-    g_loadingTexture = &loadingTexture;
+    /*g_loadingWindow = window;
+    g_loadingTexture = &loadingTexture;*/
 
     // --- Threaded asset loading ---
     std::atomic<float> progress(0.0f);
     std::atomic<bool> done(false);
-    std::thread loader([&]() {
-        scene->LoadBallsThreaded(&progress, &done);
-    });
     float spinnerAngle = 0.0f;
-    while (!done) {
-        DrawLoadingScreen(window, &loadingTexture, spinnerAngle, progress.load());
-        spinnerAngle += 30.0f;
-        std::this_thread::sleep_for(std::chrono::milliseconds(25));
-    }
-    loader.join();
 
-    scene->InstallBalls();
+    // Create a shared context for the background thread
+    GLFWwindow *bgWindow = glfwCreateWindow(1, 1, "", nullptr, window); // Share with mainWindow
+    glfwHideWindow(bgWindow);
+    std::thread bgThread([&]() {
+        glfwMakeContextCurrent(bgWindow);
+        // Now safe to make OpenGL calls in this thread
+        scene->LoadBallsThreaded(&progress, &done);
+        done.store(true); // Signal that loading is done
+        glfwMakeContextCurrent(nullptr); // Optional: release context
+    });
+
+    // --- Main thread loading screen ---
+    glfwMakeContextCurrent(window);
+    while (!done.load()) {
+        spinnerAngle += 1.0f; // Increment spinner angle
+        if (spinnerAngle >= 360.0f) spinnerAngle = 0.0f; // Reset angle
+        DrawLoadingScreen(window, &loadingTexture, spinnerAngle, progress.load());
+        /*glfwSwapBuffers(window);
+        glfwPollEvents();*/
+    }
+    bgThread.join(); // Wait for the background thread to finish
+    glfwDestroyWindow(bgWindow); // Clean up the background window
+    glfwMakeContextCurrent(window); // Switch back to the main window context
+    // Clear texture after loading
+    loadingTexture.Release();
+    // --- End of threaded loading ---
+
+    //DrawLoadingScreen(window, &loadingTexture, spinnerAngle, progress.load());
+    //scene->LoadBallsThreaded(&progress, &done);
+
+    // Now, in the main thread, create and install balls (OpenGL calls)
+    scene->InstallBalls(); // This should do all OpenGL-dependent work
     scene->SetRenderer(renderer);
 
+    // Create and use the main shader
+    Shader mainShader("shaders/basic.vert", "shaders/basic.frag");
+    /*g_mainShader = &mainShader;*/
     // Main loop
     while (!glfwWindowShouldClose(window)) {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -187,13 +215,34 @@ void App::Run() {
         int width, height;
         glfwGetFramebufferSize(window, &width, &height);
 
-        // ---- NEW: Set camera matrices before drawing objects ----
+        // Modern OpenGL: set camera matrices as uniforms, not with glMatrixMode
         glm::mat4 proj = camera->GetProjectionMatrix();
         glm::mat4 view = camera->GetViewMatrix();
-        glMatrixMode(GL_PROJECTION);
+        /*glMatrixMode(GL_PROJECTION);
         glLoadMatrixf(&proj[0][0]);
         glMatrixMode(GL_MODELVIEW);
-        glLoadMatrixf(&view[0][0]);
+        glLoadMatrixf(&view[0][0]);*/
+
+        // Use the main shader
+        mainShader.use();
+        // Set the viewport to the full window size
+        glViewport(0, 0, width, height);
+        // Set the camera matrices as uniforms
+        mainShader.setInt("texture1", 0);
+        mainShader.setMat4("projection", proj);
+        mainShader.setMat4("view", view);
+        // Set the camera position in the shader
+        /*mainShader.setVec3("cameraPos", camera->GetPosition());
+        // Set the light position in the shader
+        mainShader.setVec3("lightPos", glm::vec3(0.0f, 10.0f, 10.0f)); // Example light position
+        mainShader.setVec3("lightColor", glm::vec3(1.0f, 1.0f, 1.0f)); // White light
+        mainShader.setVec3("objectColor", glm::vec3(1.0f, 0.5f, 0.31f)); // Example object color*/
+        glEnable(GL_DEPTH_TEST); // Enable depth testing for 3D rendering
+        glEnable(GL_CULL_FACE); // Enable backface culling for better performance
+        glCullFace(GL_BACK); // Cull back faces
+        glFrontFace(GL_CCW); // Set the front face to counter-clockwise
+        glEnable(GL_BLEND); // Enable blending for transparency
+        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA); // Set blending function
 
         // ---- Draw the scene ----
         scene->Render();

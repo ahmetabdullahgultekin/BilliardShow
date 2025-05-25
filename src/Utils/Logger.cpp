@@ -17,18 +17,24 @@ std::string Logger::GetTimestamp() {
     return std::string(buffer);
 }
 
-std::ofstream& Logger::GetLogFile() {
+std::ofstream &Logger::GetLogFile() {
     static std::ofstream logFile("billiardshow.log", std::ios::app);
     return logFile;
 }
 
-void Logger::Log(const std::string& message, Level level) {
+void Logger::Log(const std::string &message, Level level) {
     std::lock_guard<std::mutex> lock(logMutex);
     std::string levelStr;
     switch (level) {
-        case INFO: levelStr = "INFO"; break;
-        case WARNING: levelStr = "WARNING"; break;
-        case ERROR: levelStr = "ERROR"; break;
+        case INFO:
+            levelStr = "INFO";
+            break;
+        case WARNING:
+            levelStr = "WARNING";
+            break;
+        case ERROR:
+            levelStr = "ERROR";
+            break;
     }
     std::string logMsg = "[" + GetTimestamp() + "] [" + levelStr + "] " + message;
     // Log to file
@@ -41,15 +47,15 @@ void Logger::Log(const std::string& message, Level level) {
     }
 }
 
-void Logger::Info(const std::string& message) {
+void Logger::Info(const std::string &message) {
     Log(message, INFO);
 }
 
-void Logger::Warn(const std::string& message) {
+void Logger::Warn(const std::string &message) {
     Log(message, WARNING);
 }
 
-void Logger::Error(const std::string& message) {
+void Logger::Error(const std::string &message) {
     Log(message, ERROR);
 }
 

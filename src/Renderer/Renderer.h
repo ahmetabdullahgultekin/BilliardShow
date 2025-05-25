@@ -7,6 +7,9 @@
 #include <glm/glm.hpp>
 
 #include "Camera.h"
+#include "Shader.h"
+
+#include <vector>
 
 class Renderer {
 public:
@@ -17,6 +20,8 @@ public:
     void DrawParallelepiped(const glm::vec3 &position, const glm::vec3 &size);
 
     void SetCamera(const Camera *cam);
+
+    void InitCubeGL();
 };
 
 #endif //BILLIARDSHOW_RENDERER_H

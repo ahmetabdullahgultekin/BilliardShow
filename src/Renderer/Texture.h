@@ -22,6 +22,8 @@ public:
 
     int GetHeight() const { return height; }
 
+    void Release();
+
 private:
     GLuint id = 0;
     int width = 0, height = 0;

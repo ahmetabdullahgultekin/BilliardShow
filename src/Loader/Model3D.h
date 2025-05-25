@@ -5,7 +5,11 @@
 
 #include <glm/glm.hpp>
 #include <GL/glew.h>
+#include <glm/ext/matrix_transform.hpp>
+
 #include "../Renderer/Texture.h"
+#include "../Utils/Logger.h"
+#include "../Renderer/Shader.h"
 
 #include <fstream>
 #include <sstream>

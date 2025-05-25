@@ -19,6 +19,8 @@
 #include "../Utils/Logger.h"
 #include "Ball.h"
 
+class Ball;
+
 class Scene {
 public:
     Scene();
@@ -33,9 +35,12 @@ public:
 
     void SetRenderer(Renderer *renderer);
 
+    void Update(float deltaTime);
+
+    std::vector<Model3D *> balls;
 private:
     Model3D *table;
-    std::vector<Model3D *> balls; // Vector of ball models
+    // Vector of ball models
     std::vector<glm::vec3> ballPositions; // Positions of the balls
     Renderer *renderer{nullptr}; // Renderer to use for drawing
 };

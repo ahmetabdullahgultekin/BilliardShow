@@ -17,13 +17,19 @@ public:
         ERROR
     };
 
-    static void Log(const std::string& message, Level level = INFO);
-    static void Info(const std::string& message);
-    static void Warn(const std::string& message);
-    static void Error(const std::string& message);
+    static void Log(const std::string &message, Level level = INFO);
+
+    static void Info(const std::string &message);
+
+    static void Warn(const std::string &message);
+
+    static void Error(const std::string &message);
+
 private:
     static std::string GetTimestamp();
-    static std::ofstream& GetLogFile();
+
+    static std::ofstream &GetLogFile();
+
     static std::mutex logMutex;
 };
 
