@@ -13,6 +13,9 @@
 
 class Renderer {
 public:
+    // Dimensions in centimeters
+    static constexpr float centimeterToMeterFactor = 0.01f; // Convert cm to meters
+
     Renderer();
 
     ~Renderer();

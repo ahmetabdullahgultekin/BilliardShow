@@ -23,12 +23,13 @@ class Ball;
 
 class Scene {
 public:
+
     Scene();
 
     ~Scene();
 
-    void Init(); // Load/install all balls
     void Render(); // Draw table and balls
+
     void InstallBalls();
 
     void LoadBallsThreaded(std::atomic<float> *progress, std::atomic<bool> *done);
@@ -37,7 +38,9 @@ public:
 
     void Update(float deltaTime);
 
-    std::vector<Model3D *> balls;
+    void ResetBallPositions();
+
+    std::vector<Ball *> balls;
 private:
     Model3D *table;
     // Vector of ball models

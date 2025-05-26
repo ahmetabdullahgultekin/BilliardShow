@@ -6,10 +6,6 @@ static bool *g_leftMousePressed = nullptr;
 static float *g_lastX = nullptr;
 static float *g_lastY = nullptr;
 
-/*GLFWwindow *g_loadingWindow = nullptr;
-Texture *g_loadingTexture = nullptr;
-Shader* g_mainShader = nullptr;*/
-
 void mouse_button_callback(GLFWwindow *, int button, int action, int) {
     if (button == GLFW_MOUSE_BUTTON_LEFT)
         *g_leftMousePressed = (action == GLFW_PRESS);
@@ -65,7 +61,6 @@ void DrawLoadingScreen(GLFWwindow *window, Texture *loadingTexture, float spinne
     int numArcs = 8;
     float radius = 32.0f;
     float arcLen = 0.7f;
-    float arcStep = 2 * 3.14159f / numArcs;
     glLineWidth(4.0f);
     for (int i = 0; i < numArcs; ++i) {
         float alpha = 1.0f - (float) i / numArcs;
@@ -162,8 +157,6 @@ void App::Run() {
         Logger::Error(std::string("Failed to load loading image ") + LOADING_IMAGE_PATH);
         return;
     }
-    /*g_loadingWindow = window;
-    g_loadingTexture = &loadingTexture;*/
 
     // --- Threaded asset loading ---
     std::atomic<float> progress(0.0f);
@@ -187,8 +180,6 @@ void App::Run() {
         spinnerAngle += 1.0f; // Increment spinner angle
         if (spinnerAngle >= 360.0f) spinnerAngle = 0.0f; // Reset angle
         DrawLoadingScreen(window, &loadingTexture, spinnerAngle, progress.load());
-        /*glfwSwapBuffers(window);
-        glfwPollEvents();*/
     }
     bgThread.join(); // Wait for the background thread to finish
     glfwDestroyWindow(bgWindow); // Clean up the background window
@@ -197,18 +188,19 @@ void App::Run() {
     loadingTexture.Release();
     // --- End of threaded loading ---
 
-    //DrawLoadingScreen(window, &loadingTexture, spinnerAngle, progress.load());
-    //scene->LoadBallsThreaded(&progress, &done);
-
     // Now, in the main thread, create and install balls (OpenGL calls)
     scene->InstallBalls(); // This should do all OpenGL-dependent work
     scene->SetRenderer(renderer);
 
     // Create and use the main shader
     Shader mainShader("shaders/basic.vert", "shaders/basic.frag");
-    /*g_mainShader = &mainShader;*/
     // Main loop
+    double lastTime = glfwGetTime();
     while (!glfwWindowShouldClose(window)) {
+        double currentTime = glfwGetTime();
+        float deltaTime = static_cast<float>(currentTime - lastTime);
+        lastTime = currentTime;
+
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         // --- Main Scene ---
@@ -218,10 +210,6 @@ void App::Run() {
         // Modern OpenGL: set camera matrices as uniforms, not with glMatrixMode
         glm::mat4 proj = camera->GetProjectionMatrix();
         glm::mat4 view = camera->GetViewMatrix();
-        /*glMatrixMode(GL_PROJECTION);
-        glLoadMatrixf(&proj[0][0]);
-        glMatrixMode(GL_MODELVIEW);
-        glLoadMatrixf(&view[0][0]);*/
 
         // Use the main shader
         mainShader.use();
@@ -231,18 +219,29 @@ void App::Run() {
         mainShader.setInt("texture1", 0);
         mainShader.setMat4("projection", proj);
         mainShader.setMat4("view", view);
-        // Set the camera position in the shader
-        /*mainShader.setVec3("cameraPos", camera->GetPosition());
-        // Set the light position in the shader
-        mainShader.setVec3("lightPos", glm::vec3(0.0f, 10.0f, 10.0f)); // Example light position
-        mainShader.setVec3("lightColor", glm::vec3(1.0f, 1.0f, 1.0f)); // White light
-        mainShader.setVec3("objectColor", glm::vec3(1.0f, 0.5f, 0.31f)); // Example object color*/
+
         glEnable(GL_DEPTH_TEST); // Enable depth testing for 3D rendering
         glEnable(GL_CULL_FACE); // Enable backface culling for better performance
         glCullFace(GL_BACK); // Cull back faces
         glFrontFace(GL_CCW); // Set the front face to counter-clockwise
         glEnable(GL_BLEND); // Enable blending for transparency
         glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA); // Set blending function
+
+        // ---- Update physics ----
+        scene->Update(deltaTime);
+
+        // Place this at the top of your main loop, outside any if/else:
+        static bool wasRPressed = false;
+
+        // Handle key press for resetting positions
+        if (glfwGetKey(window, GLFW_KEY_R) == GLFW_PRESS) {
+            if (!wasRPressed) {
+                scene->ResetBallPositions();
+                wasRPressed = true;
+            }
+        } else {
+            wasRPressed = false;
+        }
 
         // ---- Draw the scene ----
         scene->Render();
@@ -260,4 +259,3 @@ void App::Run() {
     glfwDestroyWindow(window);
     glfwTerminate();
 }
-

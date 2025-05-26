@@ -26,10 +26,6 @@ void Minimap::Render(int windowWidth, int windowHeight) {
             glm::vec3(0.0f, 0.0f, -1.0f) // Up is -Z for top view
     );
 
-    /*glMatrixMode(GL_PROJECTION);
-    glLoadMatrixf(&miniProj[0][0]);
-    glMatrixMode(GL_MODELVIEW);
-    glLoadMatrixf(&miniView[0][0]);*/
     // Set the projection and view matrices in the shader
     if (!renderer) {
         Logger::Error("Renderer is not set in Minimap::Render");

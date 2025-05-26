@@ -71,11 +71,6 @@ const Camera *camera = nullptr;
 void Renderer::SetCamera(const Camera *cam) { camera = cam; }
 
 void Renderer::DrawParallelepiped(const glm::vec3 &position, const glm::vec3 &size) {
-    /*glPushMatrix();
-    glTranslatef(position.x, position.y, position.z);
-    glScalef(size.x, size.y, size.z);
-    glBegin(GL_QUADS);*/
-
     // Use Shader for rendering
     if (!cubeGL.initialized) {
         // Initialize VAO, VBO, EBO for cube
@@ -118,56 +113,5 @@ void Renderer::DrawParallelepiped(const glm::vec3 &position, const glm::vec3 &si
     // Cleanup
     glBindVertexArray(0);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
-
-    /* glBindVertexArray(cubeGL.vao);
-     glPushMatrix();
-     glTranslatef(position.x, position.y, position.z);
-     glScalef(size.x, size.y, size.z);
-     glBegin(GL_QUADS);
-
-     // Front face (z+)
-     glColor3fv(faceColors[0]);
-     glVertex3f(-0.5f, -0.5f, 0.5f);
-     glVertex3f(0.5f, -0.5f, 0.5f);
-     glVertex3f(0.5f, 0.5f, 0.5f);
-     glVertex3f(-0.5f, 0.5f, 0.5f);
-
-     // Back face (z-)
-     glColor3fv(faceColors[1]);
-     glVertex3f(-0.5f, -0.5f, -0.5f);
-     glVertex3f(-0.5f, 0.5f, -0.5f);
-     glVertex3f(0.5f, 0.5f, -0.5f);
-     glVertex3f(0.5f, -0.5f, -0.5f);
-
-     // Top face (y+)
-     glColor3fv(faceColors[2]);
-     glVertex3f(-0.5f, 0.5f, -0.5f);
-     glVertex3f(-0.5f, 0.5f, 0.5f);
-     glVertex3f(0.5f, 0.5f, 0.5f);
-     glVertex3f(0.5f, 0.5f, -0.5f);
-
-     // Bottom face (y-)
-     glColor3fv(faceColors[3]);
-     glVertex3f(-0.5f, -0.5f, -0.5f);
-     glVertex3f(0.5f, -0.5f, -0.5f);
-     glVertex3f(0.5f, -0.5f, 0.5f);
-     glVertex3f(-0.5f, -0.5f, 0.5f);
-
-     // Right face (x+)
-     glColor3fv(faceColors[4]);
-     glVertex3f(0.5f, -0.5f, -0.5f);
-     glVertex3f(0.5f, 0.5f, -0.5f);
-     glVertex3f(0.5f, 0.5f, 0.5f);
-     glVertex3f(0.5f, -0.5f, 0.5f);
-
-     // Left face (x-)
-     glColor3fv(faceColors[5]);
-     glVertex3f(-0.5f, -0.5f, -0.5f);
-     glVertex3f(-0.5f, -0.5f, 0.5f);
-     glVertex3f(-0.5f, 0.5f, 0.5f);
-     glVertex3f(-0.5f, 0.5f, -0.5f);
-
-     glEnd();
-     glPopMatrix();*/
 }
 

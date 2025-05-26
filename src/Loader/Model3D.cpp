@@ -149,8 +149,6 @@ void Model3D::SetTexture(const std::string &path) {
         Logger::Error("Texture is not valid after loading: " + path);
     } else {
         Logger::Info("Texture is valid: " + path);
-        // Only bind if valid, but usually binding is done in Render
-        // this->texture.Bind();
     }
     GLenum errAfter = glGetError();
     if (errAfter != GL_NO_ERROR) {
@@ -158,29 +156,25 @@ void Model3D::SetTexture(const std::string &path) {
     }
 }
 
-void Model3D::Render(const glm::vec3 &position, float scale) const {
+void Model3D::Render(const glm::vec3 &position, float scale, const glm::mat4 &rotation) const {
     Shader *shader = Shader::GetActiveShader();
-    glm::mat4 model = glm::translate(glm::mat4(1.0f), position) * glm::scale(glm::mat4(1.0f), glm::vec3(scale));
+    if (!shader) {
+        Logger::Error("No active shader in Model3D::Render");
+        return;
+    }
+    glm::mat4 model = glm::mat4(1.0f);
+    model = glm::translate(model, position);
+    model = model * rotation;
+    model = glm::scale(model, glm::vec3(scale));
     shader->setMat4("model", model);
-    shader->setBool("useTexture", texture.IsValid());
-    shader->setVec3("objectColor", glm::vec3(1.0f, 1.0f, 1.0f)); // Default color, can be changed
-
     if (texture.IsValid()) {
-        glActiveTexture(GL_TEXTURE0);
-        texture.Bind();
-        shader->setInt("texture1", 0);
         shader->setBool("useTexture", true);
+        texture.Bind();
     } else {
         shader->setBool("useTexture", false);
     }
-    /*glPushMatrix();
-    glTranslatef(position.x, position.y, position.z);
-    glScalef(scale, scale, scale);*/
-
-
     glBindVertexArray(VAO);
     glDrawArrays(GL_TRIANGLES, 0, (GLsizei) vertices.size());
     glBindVertexArray(0);
-    /*glPopMatrix();*/
-    /*if (texture.IsValid()) glDisable(GL_TEXTURE_2D);*/
 }
+

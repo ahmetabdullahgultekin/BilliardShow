@@ -33,6 +33,9 @@ public:
     // Renders the model at position (ignore orientation for now)
     void Render(const glm::vec3 &position, float scale = 1.0f) const;
 
+    // Renders the model at position with rotation and scale
+    void Render(const glm::vec3 &position, float scale, const glm::mat4 &rotation) const;
+
     void SetTexture(const std::string &path);
 
     struct Vertex {
