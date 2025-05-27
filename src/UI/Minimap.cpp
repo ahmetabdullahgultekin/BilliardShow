@@ -1,13 +1,31 @@
+/**
+ * @file Minimap.cpp
+ * @brief Implementation of the Minimap class for rendering a top-down view of the billiard table.
+ * This class handles the rendering of a minimap that shows the positions of the balls on the table.
+ * It uses an orthographic projection to create a top-down view of the scene.
+ * @author Ahmet Abdullah Gultekin
+ * @date 2025-05-27
+ * @version 1.0
+ */
 #include "Minimap.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <GL/glew.h>
-#include "../Utils/Logger.h"
+#include "../Scene/Scene.h"
 
 // tableWidth, tableDepth: for camera setup
 Minimap::Minimap(Renderer *renderer, float tableWidth, float tableDepth)
         : renderer(renderer), tableWidth(tableWidth), tableDepth(tableDepth) {}
 
+/**
+ * @fn Render
+ * @brief Renders the minimap in the top-right corner of the window.
+ * This method sets up a small viewport for the minimap,
+ * configures an orthographic projection for a top-down view,
+ * and draws the billiard table and balls as simple shapes.
+ * @param windowWidth
+ * @param windowHeight
+ */
 void Minimap::Render(int windowWidth, int windowHeight) {
     // 1. Set a small viewport (top-right)
     int miniSize = windowHeight / 4;
@@ -49,16 +67,40 @@ void Minimap::Render(int windowWidth, int windowHeight) {
     glEnable(GL_DEPTH_TEST); // Enable depth testing for 3D rendering
     glEnable(GL_CULL_FACE); // Enable backface culling for better performance
     glCullFace(GL_BACK); // Cull back faces
-    glFrontFace(GL_CCW); // Set front face to counter-clockwise
+    glFrontFace(GL_CCW); // Set the front face to counter-clockwise
     glEnable(GL_BLEND); // Enable blending for transparency
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA); // Set blending function
     // 3. Disable depth testing and lighting for minimap
     glDisable(GL_DEPTH_TEST); // Disable depth testing for minimap
     glDisable(GL_LIGHTING); // Disable lighting for minimap
 
-    // 3. (Optional) If you add lighting later, disable for minimap
-    // glDisable(GL_LIGHTING);
-
     // 4. Draw the table (and later balls)
     renderer->DrawParallelepiped(glm::vec3(0.0f), glm::vec3(tableWidth, 0.2f, tableDepth));
+
+    // 5. Draw balls as simple circles
+    if (!ballPositions->empty()) {
+        float ballRadius = 0.057f; // Approximate pool ball radius in meters
+        for (const auto &pos: *ballPositions) {
+            shader->use();
+            shader->setBool("useTexture", false); // Ensure color, not texture
+            shader->setVec3("objectColor", glm::vec3(1.0f, 1.0f, 1.0f)); // White ball
+            shader->setMat4("model", glm::translate(glm::mat4(1.0f), glm::vec3(pos.x, 0.11f, pos.z)) *
+                                     glm::scale(glm::mat4(1.0f), glm::vec3(ballRadius)));
+            renderer->DrawCircle2D(glm::vec3(0.0f), 1.0f); // Draw unit circle at origin, transformed by model
+        }
+    } else {
+        Logger::Error("No ball positions set for minimap rendering");
+    }
 }
+
+/**
+ * @fn SetBallPositions
+ * @brief Sets the positions of the balls for rendering in the minimap.
+ * This method allows the minimap to access the current positions of the balls
+ * to render them correctly on the minimap.
+ * @param positions Pointer to a vector containing ball positions.
+ */
+void Minimap::SetBallPositions(const std::vector<glm::vec3> *positions) {
+    ballPositions = positions;
+}
+

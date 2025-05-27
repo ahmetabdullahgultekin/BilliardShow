@@ -1,8 +1,0 @@
-//
-// Created by Lenovo on 21/05/2025.
-//
-
-#ifndef BILLIARDSHOW_MTLLOADER_H
-#define BILLIARDSHOW_MTLLOADER_H
-
-#endif //BILLIARDSHOW_MTLLOADER_H

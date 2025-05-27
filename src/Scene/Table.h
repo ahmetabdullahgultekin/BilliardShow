@@ -1,9 +1,24 @@
+/**
+ * @file Camera.h
+ * @brief Header file for the Table class.
+ * This class represents a billiard table with defined dimensions and properties.
+ * It provides constants for the table's outer dimensions, play area,
+ * and pocket specifications, which are used in rendering and physics calculations.
+ * @author Ahmet Abdullah Gultekin
+ * @date 2025-05-27
+ */
 #ifndef BILLIARDSHOW_TABLE_H
 #define BILLIARDSHOW_TABLE_H
 
 #include "../Renderer/Renderer.h"
 #include "Constants.h"
 
+/**
+ * @class Table
+ * @brief Represents a billiard table with defined dimensions and properties.
+ * This class provides constants for the table's outer dimensions, play area,
+ * and pocket specifications, which are used in rendering and physics calculations.
+ */
 class Table {
 public:
     static constexpr float OUTER_LENGTH = Constants::OUTER_LENGTH;

@@ -71,3 +71,1090 @@
 [2025-05-24 17:47:08] [INFO] Loaded ball model and texture: assets/objects/PoolBalluv15.jpg
 [2025-05-24 17:47:08] [INFO] All ball models loaded and assigned.
 [2025-05-24 17:47:10] [INFO] BilliardShow exited.
+[2025-05-27 21:14:18] [INFO] BilliardShow started.
+[2025-05-27 21:14:19] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 21:14:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:14:19] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:14:19] [INFO] Loaded ball model 1
+[2025-05-27 21:14:19] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 21:14:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:14:19] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:14:19] [INFO] Loaded ball model 2
+[2025-05-27 21:14:19] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 21:14:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:14:19] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:14:19] [INFO] Loaded ball model 3
+[2025-05-27 21:14:20] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 21:14:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:14:20] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:14:20] [INFO] Loaded ball model 4
+[2025-05-27 21:14:20] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 21:14:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:14:20] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:14:20] [INFO] Loaded ball model 5
+[2025-05-27 21:14:20] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 21:14:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:14:20] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:14:20] [INFO] Loaded ball model 6
+[2025-05-27 21:14:20] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 21:14:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:14:20] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:14:20] [INFO] Loaded ball model 7
+[2025-05-27 21:14:20] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 21:14:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:14:20] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:14:20] [INFO] Loaded ball model 8
+[2025-05-27 21:14:21] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 21:14:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:14:21] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:14:21] [INFO] Loaded ball model 9
+[2025-05-27 21:14:21] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 21:14:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:14:21] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:14:21] [INFO] Loaded ball model 10
+[2025-05-27 21:14:21] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 21:14:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:14:21] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:14:21] [INFO] Loaded ball model 11
+[2025-05-27 21:14:21] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 21:14:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:14:21] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:14:21] [INFO] Loaded ball model 12
+[2025-05-27 21:14:21] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 21:14:22] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:14:22] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:14:22] [INFO] Loaded ball model 13
+[2025-05-27 21:14:22] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 21:14:22] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:14:22] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:14:22] [INFO] Loaded ball model 14
+[2025-05-27 21:14:22] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 21:14:22] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:14:22] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:14:22] [INFO] Loaded ball model 15
+[2025-05-27 21:14:22] [INFO] All ball models loaded and assigned.
+[2025-05-27 21:14:22] [INFO] Ball 1 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 2 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 3 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 4 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 5 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 6 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 7 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 8 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 9 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 10 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 11 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 12 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 13 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 14 model installed successfully.
+[2025-05-27 21:14:22] [INFO] Ball 15 model installed successfully.
+[2025-05-27 21:15:14] [INFO] BilliardShow started.
+[2025-05-27 21:15:14] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 21:15:14] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:15:14] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:15:14] [INFO] Loaded ball model 1
+[2025-05-27 21:15:14] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 21:15:14] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:15:14] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:15:14] [INFO] Loaded ball model 2
+[2025-05-27 21:15:15] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 21:15:15] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:15:15] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:15:15] [INFO] Loaded ball model 3
+[2025-05-27 21:15:15] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 21:15:15] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:15:15] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:15:15] [INFO] Loaded ball model 4
+[2025-05-27 21:15:15] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 21:15:15] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:15:15] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:15:15] [INFO] Loaded ball model 5
+[2025-05-27 21:15:15] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 21:15:15] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:15:15] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:15:15] [INFO] Loaded ball model 6
+[2025-05-27 21:15:15] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 21:15:15] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:15:15] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:15:15] [INFO] Loaded ball model 7
+[2025-05-27 21:15:15] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 21:15:16] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:15:16] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:15:16] [INFO] Loaded ball model 8
+[2025-05-27 21:15:16] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 21:15:16] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:15:16] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:15:16] [INFO] Loaded ball model 9
+[2025-05-27 21:15:16] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 21:15:16] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:15:16] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:15:16] [INFO] Loaded ball model 10
+[2025-05-27 21:15:16] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 21:15:16] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:15:16] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:15:16] [INFO] Loaded ball model 11
+[2025-05-27 21:15:16] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 21:15:16] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:15:16] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:15:16] [INFO] Loaded ball model 12
+[2025-05-27 21:15:16] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 21:15:16] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:15:16] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:15:16] [INFO] Loaded ball model 13
+[2025-05-27 21:15:17] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 21:15:17] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:15:17] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:15:17] [INFO] Loaded ball model 14
+[2025-05-27 21:15:17] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 21:15:17] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:15:17] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:15:17] [INFO] Loaded ball model 15
+[2025-05-27 21:15:17] [INFO] All ball models loaded and assigned.
+[2025-05-27 21:15:17] [INFO] Ball 1 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 2 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 3 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 4 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 5 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 6 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 7 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 8 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 9 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 10 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 11 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 12 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 13 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 14 model installed successfully.
+[2025-05-27 21:15:17] [INFO] Ball 15 model installed successfully.
+[2025-05-27 21:15:47] [INFO] BilliardShow exited.
+[2025-05-27 21:16:41] [INFO] BilliardShow started.
+[2025-05-27 21:16:42] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 21:16:42] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:16:42] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:16:42] [INFO] Loaded ball model 1
+[2025-05-27 21:16:42] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 21:16:42] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:16:42] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:16:42] [INFO] Loaded ball model 2
+[2025-05-27 21:16:42] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 21:16:42] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:16:42] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:16:42] [INFO] Loaded ball model 3
+[2025-05-27 21:16:43] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 21:16:43] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:16:43] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:16:43] [INFO] Loaded ball model 4
+[2025-05-27 21:16:43] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 21:16:43] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:16:43] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:16:43] [INFO] Loaded ball model 5
+[2025-05-27 21:16:43] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 21:16:43] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:16:43] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:16:43] [INFO] Loaded ball model 6
+[2025-05-27 21:16:44] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 21:16:44] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:16:44] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:16:44] [INFO] Loaded ball model 7
+[2025-05-27 21:16:44] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 21:16:44] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:16:44] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:16:44] [INFO] Loaded ball model 8
+[2025-05-27 21:16:44] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 21:16:44] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:16:44] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:16:44] [INFO] Loaded ball model 9
+[2025-05-27 21:16:45] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 21:16:45] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:16:45] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:16:45] [INFO] Loaded ball model 10
+[2025-05-27 21:16:45] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 21:16:45] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:16:45] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:16:45] [INFO] Loaded ball model 11
+[2025-05-27 21:16:45] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 21:16:45] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:16:45] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:16:45] [INFO] Loaded ball model 12
+[2025-05-27 21:16:45] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 21:16:45] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:16:45] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:16:45] [INFO] Loaded ball model 13
+[2025-05-27 21:16:46] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 21:16:46] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:16:46] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:16:46] [INFO] Loaded ball model 14
+[2025-05-27 21:16:46] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 21:16:46] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:16:46] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:16:46] [INFO] Loaded ball model 15
+[2025-05-27 21:16:46] [INFO] All ball models loaded and assigned.
+[2025-05-27 21:16:46] [INFO] Ball 1 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 2 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 3 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 4 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 5 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 6 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 7 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 8 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 9 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 10 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 11 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 12 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 13 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 14 model installed successfully.
+[2025-05-27 21:16:46] [INFO] Ball 15 model installed successfully.
+[2025-05-27 21:17:25] [INFO] BilliardShow exited.
+[2025-05-27 21:18:16] [INFO] BilliardShow started.
+[2025-05-27 21:18:17] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 21:18:17] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:18:17] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:18:17] [INFO] Loaded ball model 1
+[2025-05-27 21:18:17] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 21:18:17] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:18:17] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:18:17] [INFO] Loaded ball model 2
+[2025-05-27 21:18:17] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 21:18:17] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:18:17] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:18:17] [INFO] Loaded ball model 3
+[2025-05-27 21:18:18] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 21:18:18] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:18:18] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:18:18] [INFO] Loaded ball model 4
+[2025-05-27 21:18:18] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 21:18:18] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:18:18] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:18:18] [INFO] Loaded ball model 5
+[2025-05-27 21:18:18] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 21:18:18] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:18:18] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:18:18] [INFO] Loaded ball model 6
+[2025-05-27 21:18:18] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 21:18:18] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:18:18] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:18:18] [INFO] Loaded ball model 7
+[2025-05-27 21:18:18] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 21:18:18] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:18:18] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:18:18] [INFO] Loaded ball model 8
+[2025-05-27 21:18:19] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 21:18:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:18:19] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:18:19] [INFO] Loaded ball model 9
+[2025-05-27 21:18:19] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 21:18:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:18:19] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:18:19] [INFO] Loaded ball model 10
+[2025-05-27 21:18:19] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 21:18:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:18:19] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:18:19] [INFO] Loaded ball model 11
+[2025-05-27 21:18:19] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 21:18:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:18:19] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:18:19] [INFO] Loaded ball model 12
+[2025-05-27 21:18:19] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 21:18:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:18:19] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:18:19] [INFO] Loaded ball model 13
+[2025-05-27 21:18:20] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 21:18:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:18:20] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:18:20] [INFO] Loaded ball model 14
+[2025-05-27 21:18:20] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 21:18:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:18:20] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:18:20] [INFO] Loaded ball model 15
+[2025-05-27 21:18:20] [INFO] All ball models loaded and assigned.
+[2025-05-27 21:18:20] [INFO] Ball 1 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 2 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 3 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 4 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 5 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 6 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 7 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 8 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 9 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 10 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 11 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 12 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 13 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 14 model installed successfully.
+[2025-05-27 21:18:20] [INFO] Ball 15 model installed successfully.
+[2025-05-27 21:18:58] [INFO] BilliardShow exited.
+[2025-05-27 21:19:19] [INFO] BilliardShow started.
+[2025-05-27 21:19:20] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 21:19:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:19:20] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:19:20] [INFO] Loaded ball model 1
+[2025-05-27 21:19:20] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 21:19:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:19:20] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:19:20] [INFO] Loaded ball model 2
+[2025-05-27 21:19:20] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 21:19:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:19:20] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:19:20] [INFO] Loaded ball model 3
+[2025-05-27 21:19:20] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 21:19:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:19:20] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:19:20] [INFO] Loaded ball model 4
+[2025-05-27 21:19:21] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 21:19:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:19:21] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:19:21] [INFO] Loaded ball model 5
+[2025-05-27 21:19:21] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 21:19:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:19:21] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:19:21] [INFO] Loaded ball model 6
+[2025-05-27 21:19:21] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 21:19:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:19:21] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:19:21] [INFO] Loaded ball model 7
+[2025-05-27 21:19:21] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 21:19:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:19:21] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:19:21] [INFO] Loaded ball model 8
+[2025-05-27 21:19:21] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 21:19:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:19:21] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:19:21] [INFO] Loaded ball model 9
+[2025-05-27 21:19:21] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 21:19:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:19:21] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:19:21] [INFO] Loaded ball model 10
+[2025-05-27 21:19:22] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 21:19:22] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:19:22] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:19:22] [INFO] Loaded ball model 11
+[2025-05-27 21:19:22] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 21:19:22] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:19:22] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:19:22] [INFO] Loaded ball model 12
+[2025-05-27 21:19:22] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 21:19:22] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:19:22] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:19:22] [INFO] Loaded ball model 13
+[2025-05-27 21:19:22] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 21:19:22] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:19:22] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:19:22] [INFO] Loaded ball model 14
+[2025-05-27 21:19:22] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 21:19:22] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:19:22] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:19:22] [INFO] Loaded ball model 15
+[2025-05-27 21:19:22] [INFO] All ball models loaded and assigned.
+[2025-05-27 21:19:22] [INFO] Ball 1 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 2 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 3 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 4 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 5 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 6 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 7 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 8 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 9 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 10 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 11 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 12 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 13 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 14 model installed successfully.
+[2025-05-27 21:19:22] [INFO] Ball 15 model installed successfully.
+[2025-05-27 21:20:35] [INFO] BilliardShow exited.
+[2025-05-27 21:21:03] [INFO] BilliardShow started.
+[2025-05-27 21:21:04] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 21:21:04] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:21:04] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:21:04] [INFO] Loaded ball model 1
+[2025-05-27 21:21:04] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 21:21:04] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:21:04] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:21:04] [INFO] Loaded ball model 2
+[2025-05-27 21:21:04] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 21:21:04] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:21:04] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:21:04] [INFO] Loaded ball model 3
+[2025-05-27 21:21:04] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 21:21:04] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:21:04] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:21:04] [INFO] Loaded ball model 4
+[2025-05-27 21:21:04] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 21:21:04] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:21:04] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:21:04] [INFO] Loaded ball model 5
+[2025-05-27 21:21:04] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 21:21:04] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:21:04] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:21:04] [INFO] Loaded ball model 6
+[2025-05-27 21:21:04] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 21:21:04] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:21:04] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:21:04] [INFO] Loaded ball model 7
+[2025-05-27 21:21:04] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 21:21:04] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:21:04] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:21:04] [INFO] Loaded ball model 8
+[2025-05-27 21:21:05] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 21:21:05] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:21:05] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:21:05] [INFO] Loaded ball model 9
+[2025-05-27 21:21:05] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 21:21:05] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:21:05] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:21:05] [INFO] Loaded ball model 10
+[2025-05-27 21:21:05] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 21:21:05] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:21:05] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:21:05] [INFO] Loaded ball model 11
+[2025-05-27 21:21:05] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 21:21:05] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:21:05] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:21:05] [INFO] Loaded ball model 12
+[2025-05-27 21:21:05] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 21:21:05] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:21:05] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:21:05] [INFO] Loaded ball model 13
+[2025-05-27 21:21:05] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 21:21:05] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:21:05] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:21:05] [INFO] Loaded ball model 14
+[2025-05-27 21:21:05] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 21:21:05] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:21:05] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:21:05] [INFO] Loaded ball model 15
+[2025-05-27 21:21:05] [INFO] All ball models loaded and assigned.
+[2025-05-27 21:21:05] [INFO] Ball 1 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 2 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 3 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 4 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 5 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 6 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 7 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 8 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 9 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 10 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 11 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 12 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 13 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 14 model installed successfully.
+[2025-05-27 21:21:05] [INFO] Ball 15 model installed successfully.
+[2025-05-27 21:22:18] [INFO] BilliardShow started.
+[2025-05-27 21:22:18] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 21:22:18] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:22:18] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:22:18] [INFO] Loaded ball model 1
+[2025-05-27 21:22:19] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 21:22:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:22:19] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:22:19] [INFO] Loaded ball model 2
+[2025-05-27 21:22:19] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 21:22:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:22:19] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:22:19] [INFO] Loaded ball model 3
+[2025-05-27 21:22:19] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 21:22:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:22:19] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:22:19] [INFO] Loaded ball model 4
+[2025-05-27 21:22:19] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 21:22:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:22:19] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:22:19] [INFO] Loaded ball model 5
+[2025-05-27 21:22:19] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 21:22:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:22:19] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:22:19] [INFO] Loaded ball model 6
+[2025-05-27 21:22:19] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 21:22:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:22:19] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:22:19] [INFO] Loaded ball model 7
+[2025-05-27 21:22:19] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 21:22:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:22:20] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:22:20] [INFO] Loaded ball model 8
+[2025-05-27 21:22:20] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 21:22:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:22:20] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:22:20] [INFO] Loaded ball model 9
+[2025-05-27 21:22:20] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 21:22:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:22:20] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:22:20] [INFO] Loaded ball model 10
+[2025-05-27 21:22:20] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 21:22:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:22:20] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:22:20] [INFO] Loaded ball model 11
+[2025-05-27 21:22:20] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 21:22:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:22:20] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:22:20] [INFO] Loaded ball model 12
+[2025-05-27 21:22:20] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 21:22:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:22:20] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:22:20] [INFO] Loaded ball model 13
+[2025-05-27 21:22:20] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 21:22:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:22:20] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:22:20] [INFO] Loaded ball model 14
+[2025-05-27 21:22:20] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 21:22:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:22:21] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:22:21] [INFO] Loaded ball model 15
+[2025-05-27 21:22:21] [INFO] All ball models loaded and assigned.
+[2025-05-27 21:22:21] [INFO] Ball 1 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 2 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 3 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 4 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 5 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 6 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 7 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 8 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 9 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 10 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 11 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 12 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 13 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 14 model installed successfully.
+[2025-05-27 21:22:21] [INFO] Ball 15 model installed successfully.
+[2025-05-27 21:23:12] [INFO] BilliardShow exited.
+[2025-05-27 21:23:53] [INFO] BilliardShow started.
+[2025-05-27 21:23:53] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 21:23:53] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:23:53] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:23:53] [INFO] Loaded ball model 1
+[2025-05-27 21:23:53] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 21:23:53] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:23:53] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:23:53] [INFO] Loaded ball model 2
+[2025-05-27 21:23:53] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 21:23:53] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:23:53] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:23:53] [INFO] Loaded ball model 3
+[2025-05-27 21:23:53] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 21:23:53] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:23:53] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:23:53] [INFO] Loaded ball model 4
+[2025-05-27 21:23:54] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 21:23:54] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:23:54] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:23:54] [INFO] Loaded ball model 5
+[2025-05-27 21:23:54] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 21:23:54] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:23:54] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:23:54] [INFO] Loaded ball model 6
+[2025-05-27 21:23:54] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 21:23:54] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:23:54] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:23:54] [INFO] Loaded ball model 7
+[2025-05-27 21:23:54] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 21:23:54] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:23:54] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:23:54] [INFO] Loaded ball model 8
+[2025-05-27 21:23:54] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 21:23:54] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:23:54] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:23:54] [INFO] Loaded ball model 9
+[2025-05-27 21:23:54] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 21:23:54] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:23:54] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:23:54] [INFO] Loaded ball model 10
+[2025-05-27 21:23:55] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 21:23:55] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:23:55] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:23:55] [INFO] Loaded ball model 11
+[2025-05-27 21:23:55] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 21:23:55] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:23:55] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:23:55] [INFO] Loaded ball model 12
+[2025-05-27 21:23:55] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 21:23:55] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:23:55] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:23:55] [INFO] Loaded ball model 13
+[2025-05-27 21:23:55] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 21:23:55] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:23:55] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:23:55] [INFO] Loaded ball model 14
+[2025-05-27 21:23:55] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 21:23:55] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:23:55] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:23:55] [INFO] Loaded ball model 15
+[2025-05-27 21:23:55] [INFO] All ball models loaded and assigned.
+[2025-05-27 21:23:55] [INFO] Ball 1 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 2 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 3 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 4 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 5 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 6 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 7 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 8 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 9 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 10 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 11 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 12 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 13 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 14 model installed successfully.
+[2025-05-27 21:23:55] [INFO] Ball 15 model installed successfully.
+[2025-05-27 21:24:26] [INFO] BilliardShow started.
+[2025-05-27 21:24:26] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 21:24:26] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:24:26] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 21:24:26] [INFO] Loaded ball model 1
+[2025-05-27 21:24:26] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 21:24:26] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:24:26] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 21:24:26] [INFO] Loaded ball model 2
+[2025-05-27 21:24:26] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 21:24:26] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:24:26] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 21:24:26] [INFO] Loaded ball model 3
+[2025-05-27 21:24:27] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 21:24:27] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:24:27] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 21:24:27] [INFO] Loaded ball model 4
+[2025-05-27 21:24:27] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 21:24:27] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:24:27] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 21:24:27] [INFO] Loaded ball model 5
+[2025-05-27 21:24:27] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 21:24:27] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:24:27] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 21:24:27] [INFO] Loaded ball model 6
+[2025-05-27 21:24:27] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 21:24:27] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:24:27] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 21:24:27] [INFO] Loaded ball model 7
+[2025-05-27 21:24:27] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 21:24:27] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:24:27] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 21:24:27] [INFO] Loaded ball model 8
+[2025-05-27 21:24:27] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 21:24:27] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:24:27] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 21:24:27] [INFO] Loaded ball model 9
+[2025-05-27 21:24:28] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 21:24:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:24:28] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 21:24:28] [INFO] Loaded ball model 10
+[2025-05-27 21:24:28] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 21:24:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:24:28] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 21:24:28] [INFO] Loaded ball model 11
+[2025-05-27 21:24:28] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 21:24:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:24:28] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 21:24:28] [INFO] Loaded ball model 12
+[2025-05-27 21:24:28] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 21:24:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:24:28] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 21:24:28] [INFO] Loaded ball model 13
+[2025-05-27 21:24:28] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 21:24:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:24:28] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 21:24:28] [INFO] Loaded ball model 14
+[2025-05-27 21:24:28] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 21:24:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:24:28] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 21:24:28] [INFO] Loaded ball model 15
+[2025-05-27 21:24:28] [INFO] All ball models loaded and assigned.
+[2025-05-27 21:24:28] [INFO] Ball 1 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 2 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 3 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 4 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 5 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 6 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 7 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 8 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 9 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 10 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 11 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 12 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 13 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 14 model installed successfully.
+[2025-05-27 21:24:28] [INFO] Ball 15 model installed successfully.
+[2025-05-27 21:24:55] [INFO] BilliardShow exited.
+[2025-05-27 22:07:23] [INFO] BilliardShow started.
+[2025-05-27 22:07:24] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 22:07:24] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 22:07:24] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 22:07:24] [INFO] Loaded ball model 1
+[2025-05-27 22:07:24] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 22:07:24] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 22:07:24] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 22:07:24] [INFO] Loaded ball model 2
+[2025-05-27 22:07:24] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 22:07:24] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 22:07:24] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 22:07:24] [INFO] Loaded ball model 3
+[2025-05-27 22:07:24] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 22:07:24] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 22:07:24] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 22:07:24] [INFO] Loaded ball model 4
+[2025-05-27 22:07:25] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 22:07:25] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 22:07:25] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 22:07:25] [INFO] Loaded ball model 5
+[2025-05-27 22:07:25] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 22:07:25] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 22:07:25] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 22:07:25] [INFO] Loaded ball model 6
+[2025-05-27 22:07:25] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 22:07:25] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 22:07:25] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 22:07:25] [INFO] Loaded ball model 7
+[2025-05-27 22:07:25] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 22:07:25] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 22:07:25] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 22:07:25] [INFO] Loaded ball model 8
+[2025-05-27 22:07:25] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 22:07:25] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 22:07:25] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 22:07:25] [INFO] Loaded ball model 9
+[2025-05-27 22:07:25] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 22:07:25] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 22:07:25] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 22:07:25] [INFO] Loaded ball model 10
+[2025-05-27 22:07:25] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 22:07:25] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 22:07:25] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 22:07:25] [INFO] Loaded ball model 11
+[2025-05-27 22:07:26] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 22:07:26] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 22:07:26] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 22:07:26] [INFO] Loaded ball model 12
+[2025-05-27 22:07:26] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 22:07:26] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 22:07:26] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 22:07:26] [INFO] Loaded ball model 13
+[2025-05-27 22:07:26] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 22:07:26] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 22:07:26] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 22:07:26] [INFO] Loaded ball model 14
+[2025-05-27 22:07:26] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 22:07:26] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 22:07:26] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 22:07:26] [INFO] Loaded ball model 15
+[2025-05-27 22:07:26] [INFO] All ball models loaded and assigned.
+[2025-05-27 22:07:26] [INFO] Ball 1 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 2 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 3 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 4 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 5 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 6 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 7 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 8 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 9 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 10 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 11 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 12 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 13 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 14 model installed successfully.
+[2025-05-27 22:07:26] [INFO] Ball 15 model installed successfully.
+[2025-05-27 22:09:14] [INFO] BilliardShow started.
+[2025-05-27 22:09:14] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 22:09:14] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 22:09:14] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 22:09:14] [INFO] Loaded ball model 1
+[2025-05-27 22:09:15] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 22:09:15] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 22:09:15] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 22:09:15] [INFO] Loaded ball model 2
+[2025-05-27 22:09:15] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 22:09:15] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 22:09:15] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 22:09:15] [INFO] Loaded ball model 3
+[2025-05-27 22:09:15] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 22:09:15] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 22:09:15] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 22:09:15] [INFO] Loaded ball model 4
+[2025-05-27 22:09:15] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 22:09:15] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 22:09:15] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 22:09:15] [INFO] Loaded ball model 5
+[2025-05-27 22:09:15] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 22:09:15] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 22:09:15] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 22:09:15] [INFO] Loaded ball model 6
+[2025-05-27 22:09:15] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 22:09:16] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 22:09:16] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 22:09:16] [INFO] Loaded ball model 7
+[2025-05-27 22:09:16] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 22:09:16] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 22:09:16] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 22:09:16] [INFO] Loaded ball model 8
+[2025-05-27 22:09:16] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 22:09:16] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 22:09:16] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 22:09:16] [INFO] Loaded ball model 9
+[2025-05-27 22:09:16] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 22:09:16] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 22:09:16] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 22:09:16] [INFO] Loaded ball model 10
+[2025-05-27 22:09:16] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 22:09:16] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 22:09:16] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 22:09:16] [INFO] Loaded ball model 11
+[2025-05-27 22:09:16] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 22:09:16] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 22:09:16] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 22:09:16] [INFO] Loaded ball model 12
+[2025-05-27 22:09:16] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 22:09:17] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 22:09:17] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 22:09:17] [INFO] Loaded ball model 13
+[2025-05-27 22:09:17] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 22:09:17] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 22:09:17] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 22:09:17] [INFO] Loaded ball model 14
+[2025-05-27 22:09:17] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 22:09:17] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 22:09:17] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 22:09:17] [INFO] Loaded ball model 15
+[2025-05-27 22:09:17] [INFO] All ball models loaded and assigned.
+[2025-05-27 22:09:17] [INFO] Ball 1 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 2 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 3 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 4 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 5 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 6 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 7 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 8 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 9 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 10 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 11 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 12 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 13 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 14 model installed successfully.
+[2025-05-27 22:09:17] [INFO] Ball 15 model installed successfully.
+[2025-05-27 22:18:19] [INFO] BilliardShow started.
+[2025-05-27 22:18:19] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 22:18:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 22:18:19] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 22:18:19] [INFO] Loaded ball model 1
+[2025-05-27 22:18:19] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 22:18:19] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 22:18:19] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 22:18:19] [INFO] Loaded ball model 2
+[2025-05-27 22:18:19] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 22:18:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 22:18:20] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 22:18:20] [INFO] Loaded ball model 3
+[2025-05-27 22:18:20] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 22:18:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 22:18:20] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 22:18:20] [INFO] Loaded ball model 4
+[2025-05-27 22:18:20] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 22:18:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 22:18:20] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 22:18:20] [INFO] Loaded ball model 5
+[2025-05-27 22:18:20] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 22:18:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 22:18:20] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 22:18:20] [INFO] Loaded ball model 6
+[2025-05-27 22:18:20] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 22:18:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 22:18:20] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 22:18:20] [INFO] Loaded ball model 7
+[2025-05-27 22:18:20] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 22:18:20] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 22:18:20] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 22:18:20] [INFO] Loaded ball model 8
+[2025-05-27 22:18:21] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 22:18:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 22:18:21] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 22:18:21] [INFO] Loaded ball model 9
+[2025-05-27 22:18:21] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 22:18:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 22:18:21] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 22:18:21] [INFO] Loaded ball model 10
+[2025-05-27 22:18:21] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 22:18:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 22:18:21] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 22:18:21] [INFO] Loaded ball model 11
+[2025-05-27 22:18:21] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 22:18:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 22:18:21] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 22:18:21] [INFO] Loaded ball model 12
+[2025-05-27 22:18:21] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 22:18:21] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 22:18:21] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 22:18:21] [INFO] Loaded ball model 13
+[2025-05-27 22:18:22] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 22:18:22] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 22:18:22] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 22:18:22] [INFO] Loaded ball model 14
+[2025-05-27 22:18:22] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 22:18:22] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 22:18:22] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 22:18:22] [INFO] Loaded ball model 15
+[2025-05-27 22:18:22] [INFO] All ball models loaded and assigned.
+[2025-05-27 22:18:22] [INFO] Ball 1 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 2 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 3 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 4 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 5 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 6 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 7 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 8 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 9 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 10 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 11 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 12 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 13 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 14 model installed successfully.
+[2025-05-27 22:18:22] [INFO] Ball 15 model installed successfully.
+[2025-05-27 22:19:02] [INFO] BilliardShow exited.
+[2025-05-27 22:25:31] [INFO] BilliardShow started.
+[2025-05-27 22:25:31] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 22:25:31] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 22:25:31] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 22:25:31] [INFO] Loaded ball model 1
+[2025-05-27 22:25:31] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 22:25:31] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 22:25:31] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 22:25:31] [INFO] Loaded ball model 2
+[2025-05-27 22:25:31] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 22:25:32] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 22:25:32] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 22:25:32] [INFO] Loaded ball model 3
+[2025-05-27 22:25:32] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 22:25:32] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 22:25:32] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 22:25:32] [INFO] Loaded ball model 4
+[2025-05-27 22:25:32] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 22:25:32] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 22:25:32] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 22:25:32] [INFO] Loaded ball model 5
+[2025-05-27 22:25:32] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 22:25:32] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 22:25:32] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 22:25:32] [INFO] Loaded ball model 6
+[2025-05-27 22:25:32] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 22:25:32] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 22:25:32] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 22:25:32] [INFO] Loaded ball model 7
+[2025-05-27 22:25:32] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 22:25:32] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 22:25:32] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 22:25:33] [INFO] Loaded ball model 8
+[2025-05-27 22:25:33] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 22:25:33] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 22:25:33] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 22:25:33] [INFO] Loaded ball model 9
+[2025-05-27 22:25:33] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 22:25:33] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 22:25:33] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 22:25:33] [INFO] Loaded ball model 10
+[2025-05-27 22:25:33] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 22:25:33] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 22:25:33] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 22:25:33] [INFO] Loaded ball model 11
+[2025-05-27 22:25:33] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 22:25:33] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 22:25:33] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 22:25:33] [INFO] Loaded ball model 12
+[2025-05-27 22:25:33] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 22:25:33] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 22:25:33] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 22:25:33] [INFO] Loaded ball model 13
+[2025-05-27 22:25:34] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 22:25:34] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 22:25:34] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 22:25:34] [INFO] Loaded ball model 14
+[2025-05-27 22:25:34] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 22:25:34] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 22:25:34] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 22:25:34] [INFO] Loaded ball model 15
+[2025-05-27 22:25:34] [INFO] All ball models loaded and assigned.
+[2025-05-27 22:25:34] [INFO] Ball 1 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 2 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 3 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 4 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 5 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 6 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 7 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 8 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 9 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 10 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 11 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 12 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 13 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 14 model installed successfully.
+[2025-05-27 22:25:34] [INFO] Ball 15 model installed successfully.
+[2025-05-27 22:25:43] [INFO] BilliardShow exited.
+[2025-05-27 22:44:27] [INFO] BilliardShow started.
+[2025-05-27 22:44:27] [INFO] Loaded MTL file: assets/objects/Ball1.mtl
+[2025-05-27 22:44:27] [INFO] Texture loaded successfully: assets/objects/PoolBalluv1.jpg
+[2025-05-27 22:44:27] [INFO] Texture is valid: assets/objects/PoolBalluv1.jpg
+[2025-05-27 22:44:27] [INFO] Loaded ball model 1
+[2025-05-27 22:44:27] [INFO] Loaded MTL file: assets/objects/Ball2.mtl
+[2025-05-27 22:44:27] [INFO] Texture loaded successfully: assets/objects/PoolBalluv2.jpg
+[2025-05-27 22:44:27] [INFO] Texture is valid: assets/objects/PoolBalluv2.jpg
+[2025-05-27 22:44:27] [INFO] Loaded ball model 2
+[2025-05-27 22:44:27] [INFO] Loaded MTL file: assets/objects/Ball3.mtl
+[2025-05-27 22:44:27] [INFO] Texture loaded successfully: assets/objects/PoolBalluv3.jpg
+[2025-05-27 22:44:27] [INFO] Texture is valid: assets/objects/PoolBalluv3.jpg
+[2025-05-27 22:44:27] [INFO] Loaded ball model 3
+[2025-05-27 22:44:27] [INFO] Loaded MTL file: assets/objects/Ball4.mtl
+[2025-05-27 22:44:27] [INFO] Texture loaded successfully: assets/objects/PoolBalluv4.jpg
+[2025-05-27 22:44:27] [INFO] Texture is valid: assets/objects/PoolBalluv4.jpg
+[2025-05-27 22:44:27] [INFO] Loaded ball model 4
+[2025-05-27 22:44:27] [INFO] Loaded MTL file: assets/objects/Ball5.mtl
+[2025-05-27 22:44:27] [INFO] Texture loaded successfully: assets/objects/PoolBalluv5.jpg
+[2025-05-27 22:44:27] [INFO] Texture is valid: assets/objects/PoolBalluv5.jpg
+[2025-05-27 22:44:27] [INFO] Loaded ball model 5
+[2025-05-27 22:44:28] [INFO] Loaded MTL file: assets/objects/Ball6.mtl
+[2025-05-27 22:44:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv6.jpg
+[2025-05-27 22:44:28] [INFO] Texture is valid: assets/objects/PoolBalluv6.jpg
+[2025-05-27 22:44:28] [INFO] Loaded ball model 6
+[2025-05-27 22:44:28] [INFO] Loaded MTL file: assets/objects/Ball7.mtl
+[2025-05-27 22:44:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv7.jpg
+[2025-05-27 22:44:28] [INFO] Texture is valid: assets/objects/PoolBalluv7.jpg
+[2025-05-27 22:44:28] [INFO] Loaded ball model 7
+[2025-05-27 22:44:28] [INFO] Loaded MTL file: assets/objects/Ball8.mtl
+[2025-05-27 22:44:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv8.jpg
+[2025-05-27 22:44:28] [INFO] Texture is valid: assets/objects/PoolBalluv8.jpg
+[2025-05-27 22:44:28] [INFO] Loaded ball model 8
+[2025-05-27 22:44:28] [INFO] Loaded MTL file: assets/objects/Ball9.mtl
+[2025-05-27 22:44:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv9.jpg
+[2025-05-27 22:44:28] [INFO] Texture is valid: assets/objects/PoolBalluv9.jpg
+[2025-05-27 22:44:28] [INFO] Loaded ball model 9
+[2025-05-27 22:44:28] [INFO] Loaded MTL file: assets/objects/Ball10.mtl
+[2025-05-27 22:44:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv10.jpg
+[2025-05-27 22:44:28] [INFO] Texture is valid: assets/objects/PoolBalluv10.jpg
+[2025-05-27 22:44:28] [INFO] Loaded ball model 10
+[2025-05-27 22:44:28] [INFO] Loaded MTL file: assets/objects/Ball11.mtl
+[2025-05-27 22:44:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv11.jpg
+[2025-05-27 22:44:28] [INFO] Texture is valid: assets/objects/PoolBalluv11.jpg
+[2025-05-27 22:44:28] [INFO] Loaded ball model 11
+[2025-05-27 22:44:28] [INFO] Loaded MTL file: assets/objects/Ball12.mtl
+[2025-05-27 22:44:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv12.jpg
+[2025-05-27 22:44:28] [INFO] Texture is valid: assets/objects/PoolBalluv12.jpg
+[2025-05-27 22:44:28] [INFO] Loaded ball model 12
+[2025-05-27 22:44:28] [INFO] Loaded MTL file: assets/objects/Ball13.mtl
+[2025-05-27 22:44:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv13.jpg
+[2025-05-27 22:44:28] [INFO] Texture is valid: assets/objects/PoolBalluv13.jpg
+[2025-05-27 22:44:28] [INFO] Loaded ball model 13
+[2025-05-27 22:44:28] [INFO] Loaded MTL file: assets/objects/Ball14.mtl
+[2025-05-27 22:44:28] [INFO] Texture loaded successfully: assets/objects/PoolBalluv14.jpg
+[2025-05-27 22:44:28] [INFO] Texture is valid: assets/objects/PoolBalluv14.jpg
+[2025-05-27 22:44:28] [INFO] Loaded ball model 14
+[2025-05-27 22:44:29] [INFO] Loaded MTL file: assets/objects/Ball15.mtl
+[2025-05-27 22:44:29] [INFO] Texture loaded successfully: assets/objects/PoolBalluv15.jpg
+[2025-05-27 22:44:29] [INFO] Texture is valid: assets/objects/PoolBalluv15.jpg
+[2025-05-27 22:44:29] [INFO] Loaded ball model 15
+[2025-05-27 22:44:29] [INFO] All ball models loaded and assigned.
+[2025-05-27 22:44:29] [INFO] Ball 1 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 2 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 3 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 4 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 5 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 6 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 7 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 8 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 9 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 10 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 11 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 12 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 13 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 14 model installed successfully.
+[2025-05-27 22:44:29] [INFO] Ball 15 model installed successfully.
+[2025-05-27 22:44:46] [INFO] BilliardShow exited.

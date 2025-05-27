@@ -1,16 +1,41 @@
+/**
+ * @file App.cpp
+ * @brief Implementation of the App class for the BilliardShow application.
+ * This file contains the main application logic, including initialization,
+ * event handling, and rendering.
+ * @author Ahmet Abdullah Gultekin
+ * @date 2025-05-27
+ * @version 1.0
+ */
 #include "App.h"
 #include "Renderer/Shader.h"
 
+/* * @brief Global variables for mouse input handling.
+ * These are used to track the camera state and mouse position.
+ */
 static Camera *g_camera = nullptr;
 static bool *g_leftMousePressed = nullptr;
 static float *g_lastX = nullptr;
 static float *g_lastY = nullptr;
 
+/** * @brief Initializes global variables for mouse input handling.
+ * This function sets up the camera and mouse state variables.
+ * @param camera Pointer to the Camera instance.
+ * @param leftMousePressed Pointer to a boolean indicating if the left mouse button is pressed.
+ * @param lastX Pointer to a float for the last X position of the mouse.
+ * @param lastY Pointer to a float for the last Y position of the mouse.
+ */
 void mouse_button_callback(GLFWwindow *, int button, int action, int) {
     if (button == GLFW_MOUSE_BUTTON_LEFT)
         *g_leftMousePressed = (action == GLFW_PRESS);
 }
 
+/** * @brief Callback function for mouse cursor position changes.
+ * This function updates the camera orientation based on mouse movement
+ * when the left mouse button is pressed.
+ * @param xpos The new X position of the mouse cursor.
+ * @param ypos The new Y position of the mouse cursor.
+ */
 void cursor_position_callback(GLFWwindow *, double xpos, double ypos) {
     if (*g_leftMousePressed) {
         float deltaX = (float) xpos - *g_lastX;
@@ -21,10 +46,22 @@ void cursor_position_callback(GLFWwindow *, double xpos, double ypos) {
     *g_lastY = (float) ypos;
 }
 
+/** * @brief Callback function for mouse scroll input.
+ * This function adjusts the camera's zoom level based on the scroll input.
+ * @param yoffset The amount of scroll input (positive or negative).
+ */
 void scroll_callback(GLFWwindow *, double, double yoffset) {
     g_camera->ProcessMouseScroll((float) yoffset);
 }
 
+/** * @brief Draws a loading screen with a spinner and progress bar.
+ * This function renders a loading screen with a spinner animation
+ * and an optional progress bar at the bottom.
+ * @param window Pointer to the GLFW window.
+ * @param loadingTexture Pointer to the texture for the loading background.
+ * @param spinnerAngle The current angle of the spinner for animation.
+ * @param progress The current progress value (0.0 to 1.0) for the progress bar.
+ */
 void DrawLoadingScreen(GLFWwindow *window, Texture *loadingTexture, float spinnerAngle, float progress) {
     int winW, winH;
     glfwGetFramebufferSize(window, &winW, &winH);
@@ -104,6 +141,11 @@ void DrawLoadingScreen(GLFWwindow *window, Texture *loadingTexture, float spinne
     glfwPollEvents();
 }
 
+/** * @class App
+ * @brief Main application class for the BilliardShow.
+ * This class initializes the application, sets up the OpenGL context,
+ * and runs the main loop for rendering and event handling.
+ */
 App::App() {
     renderer = new Renderer();
     camera = new Camera(WINDOW_WIDTH / WINDOW_HEIGHT);
@@ -118,16 +160,24 @@ App::~App() {
     delete scene;
 }
 
+/**
+ * @brief Runs the main application loop.
+ * Initializes GLFW, creates a window, sets up callbacks,
+ * and enters the main rendering loop.
+ */
 void App::Run() {
+    // Initialize GLFW and create a window
     if (!glfwInit()) {
         Logger::Error("Failed to initialize GLFW");
         return;
     }
 
+    // Set GLFW window hints for OpenGL version and profile
     GLFWwindow *window = glfwCreateWindow(
             WINDOW_WIDTH, WINDOW_HEIGHT,
             "BilliardShow", nullptr, nullptr);
 
+    // Set the OpenGL context version
     if (!window) {
         Logger::Error("Failed to create window");
         glfwTerminate();
@@ -140,10 +190,12 @@ void App::Run() {
     g_lastX = &lastX;
     g_lastY = &lastY;
 
+    // Set the initial mouse position
     glfwSetMouseButtonCallback(window, mouse_button_callback);
     glfwSetCursorPosCallback(window, cursor_position_callback);
     glfwSetScrollCallback(window, scroll_callback);
 
+    // Set the initial mouse position to the center of the window
     glfwMakeContextCurrent(window);
     glewExperimental = GL_TRUE;
     if (glewInit() != GLEW_OK) {
@@ -198,7 +250,7 @@ void App::Run() {
     double lastTime = glfwGetTime();
     while (!glfwWindowShouldClose(window)) {
         double currentTime = glfwGetTime();
-        float deltaTime = static_cast<float>(currentTime - lastTime);
+        auto deltaTime = static_cast<float>(currentTime - lastTime);
         lastTime = currentTime;
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -220,6 +272,61 @@ void App::Run() {
         mainShader.setMat4("projection", proj);
         mainShader.setMat4("view", view);
 
+        // --- Lighting toggles and parameters ---
+        static bool enableAmbient = true;
+        static bool enableDirectional = true;
+        static bool enablePoint = true;
+        static bool enableSpot = true;
+        static bool wasKey1 = false, wasKey2 = false, wasKey3 = false, wasKey4 = false;
+
+        // Handle key press for toggling lights
+        if (glfwGetKey(window, GLFW_KEY_1) == GLFW_PRESS) {
+            if (!wasKey1) {
+                enableAmbient = !enableAmbient;
+                wasKey1 = true;
+            }
+        } else { wasKey1 = false; }
+        if (glfwGetKey(window, GLFW_KEY_2) == GLFW_PRESS) {
+            if (!wasKey2) {
+                enableDirectional = !enableDirectional;
+                wasKey2 = true;
+            }
+        } else { wasKey2 = false; }
+        if (glfwGetKey(window, GLFW_KEY_3) == GLFW_PRESS) {
+            if (!wasKey3) {
+                enablePoint = !enablePoint;
+                wasKey3 = true;
+            }
+        } else { wasKey3 = false; }
+        if (glfwGetKey(window, GLFW_KEY_4) == GLFW_PRESS) {
+            if (!wasKey4) {
+                enableSpot = !enableSpot;
+                wasKey4 = true;
+            }
+        } else { wasKey4 = false; }
+
+        // Set light uniforms
+        mainShader.setBool("enableAmbient", enableAmbient);
+        mainShader.setVec3("ambientColor", glm::vec3(0.15f, 0.15f, 0.15f));
+        mainShader.setBool("enableDirectional", enableDirectional);
+        mainShader.setVec3("dirLightDir", glm::normalize(glm::vec3(-1.0f, -1.0f, -1.0f)));
+        mainShader.setVec3("dirLightColor", glm::vec3(0.7f, 0.7f, 0.7f));
+        mainShader.setBool("enablePoint", enablePoint);
+        mainShader.setVec3("pointLightPos", glm::vec3(0.0f, 3.0f, 0.0f));
+        mainShader.setVec3("pointLightColor", glm::vec3(1.0f, 0.9f, 0.7f));
+        mainShader.setFloat("pointLightConstant", 1.0f);
+        mainShader.setFloat("pointLightLinear", 0.09f);
+        mainShader.setFloat("pointLightQuadratic", 0.032f);
+        mainShader.setBool("enableSpot", enableSpot);
+        mainShader.setVec3("spotLightPos", glm::vec3(0.0f, 3.0f, 3.0f));
+        mainShader.setVec3("spotLightDir", glm::normalize(glm::vec3(0.0f, -1.0f, -1.0f)));
+        mainShader.setVec3("spotLightColor", glm::vec3(1.0f, 1.0f, 1.0f));
+        mainShader.setFloat("spotLightCutoff", glm::cos(glm::radians(12.5f)));
+        mainShader.setFloat("spotLightOuterCutoff", glm::cos(glm::radians(17.5f)));
+        mainShader.setFloat("spotLightConstant", 1.0f);
+        mainShader.setFloat("spotLightLinear", 0.09f);
+        mainShader.setFloat("spotLightQuadratic", 0.032f);
+
         glEnable(GL_DEPTH_TEST); // Enable depth testing for 3D rendering
         glEnable(GL_CULL_FACE); // Enable backface culling for better performance
         glCullFace(GL_BACK); // Cull back faces
@@ -229,12 +336,13 @@ void App::Run() {
 
         // ---- Update physics ----
         scene->Update(deltaTime);
+        minimap->SetBallPositions(&scene->GetBallPositions());
 
         // Place this at the top of your main loop, outside any if/else:
         static bool wasRPressed = false;
 
         // Handle key press for resetting positions
-        if (glfwGetKey(window, GLFW_KEY_R) == GLFW_PRESS) {
+        if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
             if (!wasRPressed) {
                 scene->ResetBallPositions();
                 wasRPressed = true;

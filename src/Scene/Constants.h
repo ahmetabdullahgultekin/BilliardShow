@@ -1,5 +1,13 @@
 #pragma once
 
+/** * @file Constants.h
+ * @brief Contains constants used throughout the billiard simulation.
+ * This file defines various constants related to the billiard table dimensions,
+ * ball properties, and other simulation parameters.
+ * @author Ahmet Abdullah Gultekin
+ * @date 2025-05-27
+ * @version 1.0
+ */
 namespace Constants {
     static constexpr float CentimeterToMeter = 0.01f;
 
@@ -20,6 +28,6 @@ namespace Constants {
 
     static constexpr float BALL_MASS = 0.17f; // 170 grams in kg
     static constexpr float BALL_FRICTION = 0.02f; // Friction coefficient for balls
-    static constexpr float BALL_ROLLING_FRICTION = 0.02f; // Rolling friction coefficient for balls
+    static constexpr float BALL_ROLLING_FRICTION = 0.05f; // Rolling friction coefficient for balls
 }
 

@@ -1,17 +1,33 @@
 #include "Scene.h"
 
+/** * @file Scene.cpp
+ * @brief Implementation of the Scene class for billiard simulation.
+ * This file contains the implementation of the Scene class, which manages the billiard table and balls,
+ * rendering them using OpenGL.
+ * @author Ahmet Abdullah Gultekin
+ * @date 2025-05-27
+ * @version 1.0
+ */
 Scene::Scene() : table(nullptr) {}
 
+/** * @brief Constructor for Scene class.
+ * Initializes the billiard table and prepares the scene for rendering.
+ * This constructor sets up the table and prepares the ball positions.
+ */
 Scene::~Scene() {
     delete table;
     for (auto *ball: balls)
         delete ball;
 }
 
+/** @brief Initializes the billiard table.
+ * This method creates a new Table object and sets it up for rendering.
+ * It also prepares the ball positions for the initial setup.
+ */
 void Scene::Render() {
     // Draw table base
     Shader *shader = Shader::GetActiveShader();
-    glm::mat4 model = glm::mat4(1.0f);
+    auto model = glm::mat4(1.0f);
     shader->setMat4("model", model);
     shader->setVec3("objectColor", glm::vec3(0.2f, 0.5f, 0.2f)); // Table color
     shader->setBool("useTexture", false); // Disable texture for table
@@ -45,6 +61,11 @@ void Scene::Render() {
     }
 }
 
+/** @brief Sets the renderer for the scene.
+ * This method assigns a Renderer instance to the scene.
+ * It checks if the provided renderer is valid (not null) before setting it.
+ * @param _renderer Pointer to the Renderer instance to set.
+ */
 void Scene::SetRenderer(Renderer *_renderer) {
     if (!_renderer) {
         Logger::Error("Attempted to set null renderer in Scene::SetRenderer");
@@ -53,6 +74,11 @@ void Scene::SetRenderer(Renderer *_renderer) {
     this->renderer = _renderer;
 }
 
+/** @brief Sets the table for the scene.
+ * This method assigns a Table instance to the scene.
+ * It checks if the provided table is valid (not null) before setting it.
+ * @param _table Pointer to the Table instance to set.
+ */
 // In Scene.cpp
 void Scene::InstallBalls() {
     // No longer needed, handled in LoadBallsThreaded
@@ -61,6 +87,12 @@ void Scene::InstallBalls() {
         else Logger::Error("Ball is null in InstallBalls");
 }
 
+/** @brief Loads balls in a separate thread.
+ * This method initializes the ball positions and creates Ball objects with their models.
+ * It uses atomic variables to track progress and completion status.
+ * @param progress Pointer to an atomic float for tracking loading progress.
+ * @param done Pointer to an atomic bool for signaling completion.
+ */
 void Scene::LoadBallsThreaded(std::atomic<float> *progress, std::atomic<bool> *done) {
     // Place balls for match start (triangle formation, apex at a head spot)
     float rowSpacing = Ball::RADIUS * 2.0f + 0.001f; // Small gap between rows
@@ -86,23 +118,13 @@ void Scene::LoadBallsThreaded(std::atomic<float> *progress, std::atomic<bool> *d
 
     // Create Ball objects and assign models/textures
     balls.resize(ballPositions.size());
-/*    Ball* sharedBall = new Ball(0, ballPositions[0]);
-    Model3D* sharedBallModel = new Model3D();
-    sharedBallModel->Load(OBJ_PATH "Ball1.obj"); // Load a default model
-    sharedBall->SetModel(sharedBallModel);
-    balls[0] = sharedBall; // The First ball is the cue ball*/
     int numBalls = (int) ballPositions.size();
     for (int i = 0; i < numBalls; ++i) {
         Ball *ball = new Ball(i + 1, ballPositions[i]);
-        Model3D *model = new Model3D(); // Copy the shared model
+        ObjectLoader *model = new ObjectLoader(); // Copy the shared model
         std::string objPath = OBJ_PATH "Ball" + std::to_string(i % 15 + 1) + ".obj"; // Cycle through 15 ball models
-        //std::string texPath = OBJ_PATH "PoolBalluv" + std::to_string(i % 15 + 1) + ".jpg"; // Cycle through textures
         model->Load(objPath);
-        //model->SetTexture(texPath);
-        //model->Install();
         ball->SetModel(model);
-        /*ball->SetPosition(ballPositions[i]);
-        ball->SetVelocity(glm::vec3(0.0f, 0.0f, 0.0f));*/
         balls[i] = ball;
         if (progress) *progress = float(i + 1) / (float) numBalls;
         Logger::Info("Loaded ball model " + std::to_string(i + 1));
@@ -113,6 +135,11 @@ void Scene::LoadBallsThreaded(std::atomic<float> *progress, std::atomic<bool> *d
     if (done) *done = true;
 }
 
+/** @brief Updates the scene state.
+ * This method updates the positions and velocities of all balls in the scene.
+ * It handles ball-ball collisions and ball-table collisions.
+ * @param deltaTime Time since the last update, used for physics calculations.
+ */
 void Scene::Update(float deltaTime) {
     // Move and apply friction
     for (auto *ball: balls) {
@@ -139,6 +166,10 @@ void Scene::Update(float deltaTime) {
     }
 }
 
+/** @brief Resets the positions of all balls to their initial positions.
+ * This method sets each ball's position back to its initial position and resets its velocity.
+ * It is typically used to reset the game state after a shot or when starting a new game.
+ */
 void Scene::ResetBallPositions() {
     // Reset all balls to their initial positions and zero velocity
     for (size_t i = 0; i < balls.size() && i < ballPositions.size(); ++i) {
@@ -148,4 +179,5 @@ void Scene::ResetBallPositions() {
         }
     }
 }
+
 

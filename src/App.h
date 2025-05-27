@@ -1,3 +1,13 @@
+/**
+ * @file App.h
+ * @brief Header file for the App class.
+ * This class initializes the application, sets up the renderer, camera, minimap, and scene,
+ * and runs the main application loop.
+ * It handles user input, rendering, and scene management.
+ * @author Ahmet Abdullah Gultekin
+ * @date 2025-05-27
+ * @version 1.0
+ */
 #ifndef BILLIARDSHOW_APP_H
 #define BILLIARDSHOW_APP_H
 
@@ -15,7 +25,7 @@
 #include "Renderer/Renderer.h"
 #include "Renderer/Camera.h"
 #include "UI/Minimap.h"
-#include "Loader/Model3D.h"
+#include "Loader/ObjectLoader.h"
 #include "Scene/Scene.h"
 #include "Renderer/Texture.h"
 #include "Utils/Logger.h"
@@ -38,6 +48,12 @@ class Minimap;
 
 class Scene;
 
+/**
+ * @class App
+ * @brief Main application class for the BilliardShow simulation.
+ * This class initializes the application, sets up the renderer, camera, minimap, and scene,
+ * and runs the main application loop.
+ */
 class App {
 public:
     App();
